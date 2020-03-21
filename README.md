@@ -1,33 +1,38 @@
 # Jekyll Base Template
 
-Basic template to start any static website in [Jekyll](https://jekyllrb.com).
+Basic template to start with any static website in [Jekyll](https://jekyllrb.com).
 
-# How to reach at this point
+# What you get in this template
 
-- Create a jekyll project with its generator and `cd` into it
-```
-jekyll new sitename && cd sitename
-```
+- [Minima](https://jekyll.github.io/minima/) theme style page layouts (`Home`, `About` and `Blogs`)
+- [Bootstrap 4](https://getbootstrap.com/) CSS (`v4.1.3`)
+- [Font Awesome](https://fontawesome.com) Icons (`v5.12.1`)
+- [Animate](https://daneden.github.io/animate.css/) CSS (`v3.7.2`)
+- [Wow](https://www.delac.io/wow/) JS (`v1.1.2`)
+- [Simple Lightbox](https://dbrekalo.github.io/simpleLightbox/) Gallery Library (`v1.17.2`)
 
-- Create the top level folders
-```
-mkdir _include _layouts _sass assets
-```
+# Get started with
 
-- Create `assets` subfolders
-```
-mkdir assets/css assets/fonts assets/img assets/js
-```
+- Fork the repo
 
-- Create a basic `.gitignore` file
-```
-echo -e "_site\n.sass-cache\n.jekyll-metadata" > .gitignore
-```
+- Git clone the repo
+  ```
+  git clone https://github.com/<your-user-name>/jekyllbasetemplate <your-site-name>
+  ```
 
-- Run as 
-```
-bundle exec jekyll serve
-```
+  Where
+    - `your-user-name`: Your GitHub username
+    - `your-site-name`: Website name
 
-- Enjoyee!
+- Go into the cloned repo
+  ```
+  cd <your-site-name>
+  ```
 
+- Run `bundle install`
+- Start the server as
+  ```
+  bundle exec jekyll serve
+  ```
+- Open the url `http://localhost:4000` in your favourite browser
+- Cheers!
