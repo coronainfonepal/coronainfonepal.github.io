@@ -1,0 +1,88 @@
+body .container {
+  width: 60%;
+}
+
+// Header SCSS
+.navbar {
+  height: 70px;
+  padding: 0; 
+  background: #fff;
+  box-shadow: 4px 5px 30px rgba(0,0,0,0.1);
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: #111;
+  font-weight: 800;
+}
+.navbar-brand {
+  height: inherit; 
+  padding-bottom: 0px;
+  margin-left: 14em !important;
+}
+.navbar-brand img {
+  height: 90%;
+  margin-left: 20%; 
+}
+.navbar-nav {
+  margin-left: 30%; 
+}
+.navbar-toggler {
+  margin-right: 10px; 
+}
+.navbar-collapse .navbar-nav a {
+  color: black;
+  font-size: 16px; 
+}
+.navbar-collapse .nav-item {
+  margin-right: 10px;
+}
+.navbar-collapse .nav-link {
+  padding: 5px;
+  font-weight: 500; 
+  text-transform: uppercase;
+}
+.navbar .dropdown {
+  margin-top: 3px; 
+}
+.navbar .dropdown .dropdown-menu {
+  width: 200px; 
+}
+.navbar .dropdown .dropdown-menu li:hover {
+  background: #eaeaea; 
+}
+.btn.active:focus {
+  box-shadow: none !important; 
+}
+
+// Code Highlighting
+pre, code {
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #eef;
+}
+code {
+  padding: 1px 5px;
+}
+pre {
+  padding: 8px 12px;
+  overflow-x: auto;
+}
+
+.home-section {
+  .post-list {
+    list-style: none;
+  }
+}
+
+// footer css
+.footer-section {
+
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-left: 2.1em;
+  }
+  .contact-list, .social-media-list {
+    list-style: none;
+  }
+}
