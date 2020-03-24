@@ -1,6 +1,9 @@
 body .container {
   width: 60%;
 }
+body .footer-section .container {
+  width: 65%;
+}
 
 // Header SCSS
 .navbar {
@@ -14,9 +17,9 @@ body .container {
   font-weight: 800;
 }
 .navbar-brand {
-  height: inherit; 
+  height: inherit;
+  margin-top: 20px; 
   padding-bottom: 0px;
-  margin-left: 14em !important;
 }
 .navbar-brand img {
   height: 90%;
