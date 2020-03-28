@@ -1,6 +1,193 @@
-.blogs-section {
-  
+.post-tags {
+  font-size: 14px;
 }
+.blog-title {
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.27);
+}
+.categories ul li {
+  font-size: 14px;
+}
+.categories ul li i {
+  color: #e91e63;
+}
+.categories ul li a {
+  color: #555;
+}
+.events-grid-right h4 {
+  line-height: 15px;
+}
+.events-grid-right h4 a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+.blog_events_list li {
+  display: inline-block;
+  font-size: 12px;
+}
+ul.blog_events_list li i {
+  color: #777;
+}
+.tags ul li {
+  display: inline-block;
+}
+.tags ul li a.text-dark {
+  padding: 5px 10px;
+  margin: 0 5px 10px 0;
+  display: block;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.ul.blogs-social-icons li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+.ul.blogs-social-icons li a i.fab {
+  font-size: 18px;
+  line-height: 41px;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  background-color: transparent;
+}
+.blog-card .post-img {
+  margin: auto;
+}
+.blog-card .post-img img {
+  padding: 5px;
+}
+.card-body {
+  padding: 0.5em;
+}
+.card-body .post-tags {
+  margin: 0px;
+}
+.blog-card-title {
+  margin: 0px;
+}
+.blog-card-title a {
+  font-size: 20px;
+  color: #333;
+  font-weight: 400;
+}
+.blog-card-heading span {
+  font-size: 12px;
+  color: #000;
+}
+.blog-card-heading span i {
+  font-size: 12px;
+  color: #777;
+}
+.blog-card-text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #999;
+}
+img.circular {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  padding-left: 0;
+  border-radius: 100%;
+}
+img.centered {
+  display: block;
+  margin: 0 auto;
+}
+.post-title {
+  color: #333;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+}
+.post-body .opening-text {
+  font-size: 20px;
+  color: #555;
+  font-family: "Oswald", sans-serif;
+}
+.disclaimer-text {
+  font-size: 14px;
+  color: #777;
+}
+.post-body {
+  font-size: 15px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 2rem 0;
+  }
+  blockquote {
+    font-size: 1.15em;
+  }
+  p {
+    color: #666;
+  }
+  blockquote p {
+    font-style: italic;
+    padding: 0 2em;
+    line-height: 1.8em;
+    color: #555;
+  }
+  blockquote .quote-bar {
+    border-left: 4px solid #333;
+    padding-left: 0.5em;
+  }
+  .breakline {
+    border: 0.11em solid #333;
+    width: 25%;
+  }
+
+  .ending-text {
+    font-size: 18px;
+    color: #333;
+    font-style: italic;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .image-wrapper .image-caption {
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+    margin: 0.5em 0;
+  }
+}
+.post-area {
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px dotted #ddd;
+}
+.blog-post-short {
+  padding: 0.2em 1.5em 0.1em 1.5em;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #111;
+}
+.blog-post-short:hover {
+  box-shadow: 1px 1px 10px #111;
+}
+
+.post-area a:link,
+.post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+.post-area a:hover {
+  color: #0d0017;
+}
+.blog-post-page {
+  .post-container {
+    padding: 2em 5em;
+  }
+}  
+
 .post-section {
 
 }

@@ -1,0 +1,18 @@
+<div class="datewise-news-section py-2 wow fadeInUp">
+  <div class="container">
+    <div class="row">
+      {% for datenews in site.data.news limit: 3 %}
+        <div class="col-md-3">
+          <!-- {% include blogs/post-outline.html post=post %} -->
+          {% assign date = datenews[0] %}
+          {% assign news = datenews[1] %}
+
+          Date: {{ news.date }}
+          {% for feed in news.newsfeed %}
+            {{ feed['url'] }}
+          {% endfor %}
+        </div>  
+      {% endfor %}
+    </div>  
+  </div>
+</div>

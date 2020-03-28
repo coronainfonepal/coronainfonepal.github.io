@@ -9,6 +9,12 @@ page_name: home
 
 <div class="home-section">
   
+  {% assign primary_msg = site.data.siteinfo.primary_msg %}
+  <!-- {% assign secondary_msg = site.data.siteinfo.secondary_msg %} -->
+  {% include message-of-the-page.html 
+             primary_msg=primary_msg
+  %}
+
   <section class="banner-area mb-3 wow fadeInUp">
     <div class="container">
       <div class="row no-gutters">
@@ -27,32 +33,7 @@ page_name: home
 
   <hr class="section-bar mt-5 wow fadeInUp" />
 
-  <div class=" py-2 wow fadeInUp">
-    <div class="container">
-
-      {%- if site.posts.size > 0 -%}
-        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-        <ul class="post-list p-0">
-          {%- for post in site.posts -%}
-          <li class="mb-4">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta mb-3">{{ post.date | date: date_format }}</span>
-            <h3 class="mt-2">
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
-          </li>
-          {%- endfor -%}
-        </ul>
-
-        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-      {%- endif -%}
-    </div>
-  </div>
+  {% include datewise-news-section.html %}
 </div>
 
 {% include youtube-video-modal.html %}

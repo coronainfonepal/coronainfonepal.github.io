@@ -1,0 +1,25 @@
+date: १५ चैत २०७६, शनिवार
+world:
+  confirmed: ५,९७,0७२
+  deaths: २७,३६४
+  recovered: १,३१,६९८
+nepal:
+  confirmed: ४
+  deaths: 0
+  recovered: १
+newsfeed:
+  - url: https://www.bbc.com/news/52071611
+    thumbnail: https://ichef.bbci.co.uk/news/320/cpsprodpb/3ACF/production/_111455051_trump.jpg
+    submitted_by: Foo Bar
+  - url: https://www.bbc.com/news/52071611
+    thumbnail: https://ichef.bbci.co.uk/news/320/cpsprodpb/3ACF/production/_111455051_trump.jpg
+    submitted_by: Foo Bar
+  - url: https://www.bbc.com/news/52071611
+    thumbnail: https://ichef.bbci.co.uk/news/320/cpsprodpb/3ACF/production/_111455051_trump.jpg
+    submitted_by: Foo Bar
+  - url: https://www.bbc.com/news/52071611
+    thumbnail: https://ichef.bbci.co.uk/news/320/cpsprodpb/3ACF/production/_111455051_trump.jpg
+    submitted_by: Foo Bar
+  - url: https://www.bbc.com/news/52071611
+    thumbnail: https://ichef.bbci.co.uk/news/320/cpsprodpb/3ACF/production/_111455051_trump.jpg
+    submitted_by: Foo Bar

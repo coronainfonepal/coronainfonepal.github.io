@@ -73,9 +73,17 @@ pre {
 
 // message of the page
 .message-of-the-page {
+  text-align: center;
+
   .primary-msg {
     background: $color2;
-    background: $color1;
+    color: $color1;
+    font-size: 17px;
+  }
+  .secondary-msg {
+    background: $color4;
+    color: $color1;
+    font-size: 15px;
   }
 }
 
