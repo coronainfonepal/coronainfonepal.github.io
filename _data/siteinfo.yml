@@ -1,1 +1,12 @@
+video_about_corona: owSNrBPCbo0
+video_of_day: owSNrBPCbo0
 google_analytics: # enter your google analytics id
+corona_stats:
+  world:
+    confirmed: 549,604
+    deaths: 24,863
+    recovered: 127,531
+  nepal:
+    confirmed: 4
+    deaths: 0
+    recovered: 1

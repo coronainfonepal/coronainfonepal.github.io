@@ -1,25 +1,25 @@
-body .container {
-  width: 60%;
-}
-body .footer-section .container {
-  width: 65%;
-}
-
 // Header SCSS
 .navbar {
   height: 70px;
   padding: 0; 
-  background: #fff;
+  background: $color3;
   box-shadow: 4px 5px 30px rgba(0,0,0,0.1);
 }
+.navbar-nav .nav-item .nav-link {
+  color: $color1;
+}
 .navbar-nav .nav-item.active .nav-link {
-  color: #111;
+  color: $color1;
   font-weight: 800;
 }
 .navbar-brand {
   height: inherit;
-  margin-top: 20px; 
+  margin-top: 15px;
+  font-size: 25px; 
   padding-bottom: 0px;
+  margin-left: 10%;
+  font-family: 'Faster One', cursive;
+  color: yellow !important;
 }
 .navbar-brand img {
   height: 90%;
@@ -32,7 +32,7 @@ body .footer-section .container {
   margin-right: 10px; 
 }
 .navbar-collapse .navbar-nav a {
-  color: black;
+  color: $color1;
   font-size: 16px; 
 }
 .navbar-collapse .nav-item {
@@ -50,7 +50,7 @@ body .footer-section .container {
   width: 200px; 
 }
 .navbar .dropdown .dropdown-menu li:hover {
-  background: #eaeaea; 
+  background: $color3; 
 }
 .btn.active:focus {
   box-shadow: none !important; 
@@ -71,9 +71,48 @@ pre {
   overflow-x: auto;
 }
 
+// message of the page
+.message-of-the-page {
+  .primary-msg {
+    background: $color2;
+    background: $color1;
+  }
+}
+
 .home-section {
+  .message-of-day {
+    padding: 2em;
+    font-size: 16px;
+    background: #323232;
+    color: #ccc;
+    font-weight: 600;
+  }
+  .section-bar {
+    background-color: #ccc;
+    width: 60%;
+    text-align: center;
+  }
+  .world-stats {
+    background: #ccc;
+  }
+  .nepal-stats {
+    background: #ddd;
+  }
   .post-list {
     list-style: none;
+  }
+  .stats-details {
+    font-size: 11px;
+  }
+  .video-play {
+    background-image: url("/assets/img/banner-video-play.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 112px;
+  }
+  .fa-globe-americas {
+    color: #0416e8;
   }
 }
 

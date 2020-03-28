@@ -2,9 +2,10 @@
 
 /* Custom SCSS */
 $color1: #fff;
-$color2: #222a75;
-$color3: #0f2dff;
-$color4: red;
+$color2: #1b262c;
+$color3: #0f4c75;
+$color4: #3282b8;
+$color5: #bbe1fa;
 
 body {
   font-family: "Montserrat", Arial, sans-serif;
@@ -72,8 +73,29 @@ body {
   margin-top: 5em;
 }
 
+#youtubeVideoModal {
+  top: 10%;
+  
+  .modal-content {
+    background-color: transparent;
+    border: none;
+
+    .modal-header {
+      border-bottom: none;
+      padding: 0 1em;
+
+      .close {
+        color: #fff;
+        padding: 0 0.5em;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
 @import "animate.min";
 @import "home";
 @import "blogs";
 @import "about";
+@import "contact";
 @import "responsive";

@@ -1,0 +1,54 @@
+.contact-page {
+  padding: 4em 0 0 0;
+
+  .section-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #fff;
+  }
+  .section-subheading {
+    color: #fff;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .img-box {
+    height: auto;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: center;
+
+    img {
+      max-width: 60px;
+      margin-left: 0;
+      position: relative;
+      margin-top: 0;
+      top: inherit;
+      left: inherit;
+    }
+  }
+  .service-heading {
+    text-transform: none;
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 700;
+    line-height: 22px;
+    color: #111;
+    text-align: center;
+  }
+  .service-info {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  .map-content {
+    margin-top: -100px;
+  }
+}

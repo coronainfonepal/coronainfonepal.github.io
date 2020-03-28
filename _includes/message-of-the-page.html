@@ -1,0 +1,11 @@
+<section class="message-of-the-page">
+  <div class="primary-msg">
+    {{ include.primary_msg }}
+  </div>
+
+  {% if include.secondary_msg %}
+    <div class="secondary-msg">
+      {{ include.secondary_msg }}
+    </div>
+  {% endif %}
+</section>

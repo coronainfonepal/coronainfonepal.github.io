@@ -7,29 +7,52 @@ title: Your Awesome Title
 page_name: home
 ---
 
-<div class="home-section py-2 wow fadeInUp">
-  <div class="container">
+<div class="home-section">
+  
+  <section class="banner-area mb-3 wow fadeInUp">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          {% include corona-stats.html %}
+        </div>        
+        <div class="col-md-6">
+          <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/{{ site.data.siteinfo.video_about_corona }}?rel=0&amp;autoplay=1" data-toggle="modal" class="youtube-video-btn">
+            <div class="video-play">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    {%- if site.posts.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-      <ul class="post-list p-0">
-        {%- for post in site.posts -%}
-        <li class="mb-4">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta mb-3">{{ post.date | date: date_format }}</span>
-          <h3 class="mt-2">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
+  <hr class="section-bar mt-5 wow fadeInUp" />
 
-      <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    {%- endif -%}
+  <div class=" py-2 wow fadeInUp">
+    <div class="container">
+
+      {%- if site.posts.size > 0 -%}
+        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+        <ul class="post-list p-0">
+          {%- for post in site.posts -%}
+          <li class="mb-4">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta mb-3">{{ post.date | date: date_format }}</span>
+            <h3 class="mt-2">
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+              {{ post.excerpt }}
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+
+        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+      {%- endif -%}
+    </div>
   </div>
 </div>
+
+{% include youtube-video-modal.html %}
