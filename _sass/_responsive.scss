@@ -1,8 +1,9 @@
+
 @media (max-width: 992px) {
 }
-
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 }
+
 
 @media (max-width: 768px) {
   // body .container, body .footer-section .container {
@@ -22,6 +23,11 @@
     font-size: 22px;
   }
 }
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 70%;
+  }
+}
 
 @media (max-width: 550px) {
   // body .container, body .footer-section .container {
@@ -35,12 +41,4 @@
 }
 
 @media(max-width: 360px) {
-}
-
-// desktop
-@media (max-width: 992px) {
-}
-
-// ipad and tablet
-@media (max-width: 768px) {
 }
