@@ -1,22 +1,35 @@
-<div class="row no-gutters">
-  <div class="col-md-6 col-6">
-    <div class="world-stats px-4 py-3">
-      <h5>संसार <i class="fas fa-globe-americas"></i></h5>
-      <div class="stats-details">
-        <b>कुल संक्रमित:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.confirmed }}<br>
-        <b>कुल मृत्यु:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.deaths }}<br>
-        <b>कुल स्वस्थलाभ:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.recovered }}
+<section class="corona-stats">
+  <div class="row no-gutters">
+    <div class="col-md-6 col-6">
+      <div class="world-stats px-4 py-3">
+        <h5>संसार <i class="fas fa-globe-americas"></i></h5>
+        <div class="stats-details">
+          <b>कुल संक्रमित:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.confirmed }}<br>
+          <b>कुल मृत्यु:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.deaths }}<br>
+          <b>कुल स्वस्थलाभ:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.recovered }}
+        </div>
       </div>
     </div>
+    <div class="col-md-6 col-6">
+      <div class="nepal-stats px-4 py-3">
+        <h5>नेपाल <img src="/assets/img/nepal-flag.png" /></h5>
+        <div class="stats-details">
+          <b>कुल संक्रमित:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.confirmed }}<br>
+          <b>कुल मृत्यु:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.deaths }}<br>
+          <b>कुल स्वस्थलाभ:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.recovered }}
+        </div>
+      </div>  
+    </div>
   </div>
-  <div class="col-md-6 col-6">
-    <div class="nepal-stats px-4 py-3">
-      <h5>नेपाल <img src="/assets/img/nepal-flag.png" /></h5>
-      <div class="stats-details">
-        <b>कुल संक्रमित:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.confirmed }}<br>
-        <b>कुल मृत्यु:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.deaths }}<br>
-        <b>कुल स्वस्थलाभ:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.recovered }}
-      </div>
-    </div>  
-  </div>
-</div>
+
+  <h6 class="source mt-1">
+    <b>Source:&nbsp;</b>
+    <a href="{{ site.data.siteinfo.corona_stats.nonmobile_source }}" target="_blank">
+      <i class="fas fa-desktop"></i>
+    </a>
+    &nbsp;|&nbsp; 
+    <a href="{{ site.data.siteinfo.corona_stats.mobile_source }}" target="_blank">
+      <b>&nbsp;</b><i class="fas fa-mobile-alt"></i>
+    </a>
+  </h6>
+</section>

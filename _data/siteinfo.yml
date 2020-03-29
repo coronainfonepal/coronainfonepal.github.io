@@ -1,16 +1,18 @@
 video_about_corona: owSNrBPCbo0
-video_of_day: owSNrBPCbo0
+video_of_day: 
 corona_stats:
+  nonmobile_source: https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
+  mobile_source: https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61
   world:
-    confirmed: ५,९७,0७२
-    deaths: २७,३६४
-    recovered: १,३१,६९८
+    confirmed: ६,८४,६५२
+    deaths: ३२,११३
+    recovered: १,४५,६९६
   nepal:
-    confirmed: ४
+    confirmed: ५
     deaths: 0
-    recovered: १
+    recovered: १    
 primary_msg: हाम्रो लक्ष्य कोरोना भाइरसको विरुद्ध लड्न सरकारलाई सहयोग पुर्‍याउनु हो।
-secondary_msg: हाम्रो लक्ष्य कोरोना भाइरसको
+secondary_msg: 
 fbgroup: https://www.facebook.com/groups/577606692841359
 fbgroup_logo: img/join_fbgroup.png
 email1: mr.sushant.dahal@gmail.com
