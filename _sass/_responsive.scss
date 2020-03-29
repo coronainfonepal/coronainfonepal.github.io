@@ -47,7 +47,10 @@
   // }
   .navbar-brand {
     margin-left: 1em !important;
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .tagline {
+    font-size: 11px;
   }
   .card-columns {
     column-count: 2 !important;
@@ -55,4 +58,7 @@
 }
 
 @media(max-width: 360px) {
+  .tagline {
+    display: none;
+  }
 }

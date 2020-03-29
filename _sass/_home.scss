@@ -20,6 +20,12 @@
   margin-left: 10%;
   font-family: 'Faster One', cursive;
   color: yellow !important;
+  margin-right: 5px;
+}
+.tagline {
+  color: lightyellow;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 .navbar-brand img {
   height: 90%;
@@ -151,7 +157,16 @@ pre {
     margin-bottom: 15px;
     margin-left: 2.1em;
   }
-  .contact-list, .social-media-list {
-    list-style: none;
+  /** footer-bottom **/
+  .footer-bottom{
+    position: relative;
+    font-size: 11px;
+    background: $color2;
+    padding: 5px 0;
+    color: $color5;
+
+    a {
+      color: $color4 !important;
+    }
   }
 }
