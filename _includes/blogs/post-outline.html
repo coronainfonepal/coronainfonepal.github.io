@@ -1,33 +1,11 @@
-<div class="col-md-12 col-sm-12 mb-4">
-  <div class="blog-card p-2">
-    <div class="row">
-      <div class="col-md-3 post-img">
-        <img class="" src="{{ include.post.thumbnail_img }}" alt="{{ include.post.title }}" />
-      </div>
-      <div class="col-md-9">
-        <div class="card-body">
-          <div class="border-bottom">
-            <h5 class="blog-card-title font-weight-bold">
-              <a class="post-title" href="{{ post.url | prepend: site.url }}">{{ include.post.title }}</a>
-            </h5>
-          </div>
-          <p class="blog-card-text mt-3">
-            {{ include.post.content | strip_html | truncatewords: 30 }}
-            <a href="{{ post.url | prepend: site.url }}" class="blog-btn text-danger">Read more</a>
-          </p>
-          <p class="post-tags">
-            <i class="fa fa-tags"></i>
-            {% for tag in include.post.tags %}
-            {% if page.is_tags_page %}
-            {% assign tag_url_base = "" %}
-            {% else %}
-            {% assign tag_url_base = "/blogs/tags/" %}
-            {% endif %}
-            <a href="{{ tag_url_base }}#{{ tag | uri_escape }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
-            {% endfor %}
-          </p>
-        </div>
-      </div>
+<div class="card news_card">
+  <a class="text-right" href="{{ include.post.url }}">
+    <img class="card-img-top" src="{{ include.post.news_thumbnail }}" alt="Card image cap">
+  </a>  
+  <div class="card-body">
+    <h5 class="card-title mb-0">{{ include.post.title }}</h5>
+    <div class="source">
+      Source: {{ include.post.source }}
     </div>
   </div>
 </div>

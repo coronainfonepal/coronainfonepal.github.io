@@ -22,6 +22,15 @@
     margin-top: 10px !important;
     font-size: 22px;
   }
+  .card-columns {
+    column-count: 3 !important;
+
+    .card {
+      .card-title {
+        font-size: 0.9em;
+      }
+    }
+  }
 }
 @media (min-width: 768px) {
   .modal-dialog {
@@ -37,7 +46,9 @@
     margin-left: 1em !important;
     font-size: 18px;
   }
-
+  .card-columns {
+    column-count: 2 !important;
+  }
 }
 
 @media(max-width: 360px) {

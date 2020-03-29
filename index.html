@@ -31,9 +31,17 @@ page_name: home
     </div>
   </section>
 
-  <hr class="section-bar mt-5 wow fadeInUp" />
+  <hr class="section-bar mt-5 mb-4 wow fadeInUp" />
 
-  {% include datewise-news-section.html %}
+  <div class="latest-news-section py-2 wow fadeInUp">
+    <div class="container">
+      <div class="card-columns">
+        {% for post in site.posts limit: 6 %}
+          {% include blogs/post-outline.html post=post %}
+        {% endfor %}
+    </div>
+  </div>
+  
 </div>
 
 {% include youtube-video-modal.html %}
