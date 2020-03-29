@@ -7,20 +7,19 @@ layout: default
   <section id="intro">
     <div class="container">
       <div class="row">
-        {% include render-url.html 
-              url=page.news_url 
-        %}
-      </div>
-
-      <div class="row mx-0">
-        <p class="center-text py-3">
-          <a href="{{ site.baseurl }}/" role="button" class="btn btn-danger px-3">
+        <p class="center-text pt-3">
+          <a href="{{ site.baseurl }}/" role="button" class="btn btn-sm btn-danger px-3">
             गृह
           </a>
-          <a href="{{ site.baseurl }}/news" role="button" class="btn btn-success px-3">
+          <a href="{{ site.baseurl }}/news" role="button" class="btn btn-sm btn-success px-3">
             समाचार सूची
           </a>
         </p>
+      </div>
+      <div class="row">
+        {% include render-url.html 
+              url=page.news_url 
+        %}
       </div>
     </div>
   </section>
