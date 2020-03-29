@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "टेकु अस्पतालका चिकित्सकका मुख्य तीन चिन्ता"
-date: 2020-03-27 14:01:00
+date: 2020-03-27
 categories:
   - hospital
 type: news

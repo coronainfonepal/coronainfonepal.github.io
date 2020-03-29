@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "महावीर पुनले बनाइरहेको पीपीई कति भरपर्दो ?"
-date: 2020-03-27 14:00
+date: 2020-03-27
 categories:
   - ppe
 type: news

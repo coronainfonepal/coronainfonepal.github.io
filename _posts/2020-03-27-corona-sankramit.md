@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "कोरोना संक्रमित युवकको पीडा : न चिकित्सक हेर्न आए, न तातोपानी नै दिए"
-date: 2020-03-27 08:00
+date: 2020-03-27
 categories: 
   - medical
   - coronapositive

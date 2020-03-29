@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "फ्रान्सबाट फर्किएकी किशोरीमा संक्रमण, कहाँ भयो कमजोरी ?"
-date: 2020-03-27 07:50:00
+date: 2020-03-27
 categories:
   - coronapositive
 type: news
