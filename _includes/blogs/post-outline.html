@@ -3,7 +3,9 @@
     <img class="card-img-top lazy" data-src="{{ include.post.news_thumbnail }}" alt="Card image cap">
   </a>  
   <div class="card-body">
-    <h5 class="card-title mb-0">{{ include.post.title }}</h5>
+    <a class="post_url" href="{{ include.post.url }}">
+      <h5 class="card-title mb-0">{{ include.post.title }}</h5>
+    </a>
     <div class="source">
       Source: {{ include.post.source }}
     </div>

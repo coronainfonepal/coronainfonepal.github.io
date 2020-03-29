@@ -127,13 +127,19 @@ pre {
 // News Card
 .news_card {
   .card-title {
-    font-size: 1rem;
+    font-size: 15px;
   }
+  .post_url {
+    color: #333;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }  
   .source {
-    font-size: 10px;
-  }
-  .read_news {
-    font-size: 0.7rem;
+    font-size: 11px;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
