@@ -36,7 +36,7 @@ page_name: home
   <div class="latest-news-section py-2 wow fadeInUp">
     <div class="container">
       <div class="card-columns">
-        {% for post in site.posts limit: 6 %}
+        {% for post in site.posts limit: 8 %}
           {% include blogs/post-outline.html post=post %}
         {% endfor %}
     </div>
