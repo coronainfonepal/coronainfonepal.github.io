@@ -3,9 +3,9 @@
     {% if paginator.previous_page %}
       {% assign prev_class="left button button-outline regular" %}
       {% if paginator.previous_page == 1 %}
-        <a href="/news/" title="Previous Page" class="page-link float-left btn btn-sm btn-light {{ prev_class }}">&laquo; Newer Posts</a>
+        <a href="/blogs/" title="Previous Page" class="page-link float-left btn btn-sm btn-light {{ prev_class }}">&laquo; Newer Posts</a>
       {% else %}
-        <a href="/news/page/{{ paginator.previous_page }}/" title="Previous Page" class="page-link float-left btn btn-sm btn-light {{ prev_class }}">&laquo; Newer Posts</a>
+        <a href="/blogs/page{{ paginator.previous_page }}/" title="Previous Page" class="page-link float-left btn btn-sm btn-light {{ prev_class }}">&laquo; Newer Posts</a>
       {% endif %}
     {% else %}
       <div class="float-left px4">&nbsp;</div>
@@ -14,7 +14,7 @@
     <span class="btn btn-sm"> Page {{paginator.page}} of {{paginator.total_pages}}</span>
 
     {% if paginator.next_page %}
-      <a href="/news/page/{{ paginator.next_page }}/" title="Next Page" class="page-link float-right btn btn-sm btn-light">Older Posts &raquo;</a>
+      <a href="/blogs/page{{ paginator.next_page }}/" title="Next Page" class="page-link float-right btn btn-sm btn-light">Older Posts &raquo;</a>
     {% endif %}
   </div>
 {% endif %}

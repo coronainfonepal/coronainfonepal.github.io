@@ -5,19 +5,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coronainfonepal.org" # the base hostname & protocol for your site, e.g. http://example.com
 
-permalink: /news/:year/:month/:day/:title/
-
-# Pagination Settings
-pagination:
-  enabled: true
-  per_page: 12
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'date'
+paginate: 4
+paginate_path: "/blogs/page:num"
+permalink: /blogs/:year/:month/:day/:title/
   
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
