@@ -149,6 +149,12 @@ pre {
   }
 }
 
+.contribute-pitch {
+  background: $color2;
+  color: $color1;
+  padding: 2em;
+}
+
 // footer css
 .footer-section {
 
@@ -161,12 +167,12 @@ pre {
   .footer-bottom{
     position: relative;
     font-size: 11px;
-    background: $color2;
+    background: #323232;
     padding: 5px 0;
-    color: $color5;
+    color: $color1;
 
     a {
-      color: $color4 !important;
+      color: yellow !important;
     }
   }
 }

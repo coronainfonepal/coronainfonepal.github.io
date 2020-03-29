@@ -7,9 +7,9 @@ page_name: contact
 
 <section class="contact-page pt-6 wow fadeInUp">
   <div class="container">
-    <div class="row content pb-3">
+    <div class="row content pb-6">
       <div class="col-xs-12 col-md-6 p-0">
-        <a href="{{ site.data.siteinfo.fbgroup }}">
+        <a href="{{ site.data.siteinfo.fbgroup }}" target="_blank">
           <img src="/assets/{{ site.data.siteinfo.fbgroup_logo }}" class="img-fluid" />
         </a>
       </div>
@@ -23,11 +23,11 @@ page_name: contact
               </div>
               <h4 class="service-heading">MAIL</h4>
               <p class="service-info text-center">
-                <a href="mailto:{{ site.data.siteinfo.email1 }}">{{ site.data.siteinfo.email1 }}</a>
+                <a href="mailto:{{ site.data.siteinfo.email1 }}" target="_blank">{{ site.data.siteinfo.email1 }}</a>
                 
                 {% if site.data.siteinfo.email2 %}
                   <br>
-                  <a href="mailto:{{ site.data.siteinfo.email2 }}">{{ site.data.siteinfo.email2 }}</a>
+                  <a href="mailto:{{ site.data.siteinfo.email2 }}" target="_blank">{{ site.data.siteinfo.email2 }}</a>
                 {% endif %}  
               </p>
             </div>
@@ -39,11 +39,11 @@ page_name: contact
               </div>
               <h4 class="service-heading">PHONE</h4>
               <p class="service-info text-center">
-                <a href="tel:{{ site.data.siteinfo.phone1 }}">{{ site.data.siteinfo.phone1 }}</a>
+                <a href="tel:{{ site.data.siteinfo.phone1 }}" target="_blank">{{ site.data.siteinfo.phone1 }}</a>
 
                 {% if site.data.siteinfo.phone2 %}
                   <br>
-                  <a href="tel:{{ site.data.siteinfo.phone2 }}">{{ site.data.siteinfo.phone2 }}</a>
+                  <a href="tel:{{ site.data.siteinfo.phone2 }}" target="_blank">{{ site.data.siteinfo.phone2 }}</a>
                 {% endif %}
               </p>
             </div>

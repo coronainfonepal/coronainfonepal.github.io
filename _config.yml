@@ -5,6 +5,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coronainfonepal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+google_analytics: UA-162159392-1
+
 permalink: /news/:year/:month/:day/:title/
   
 # Build settings
