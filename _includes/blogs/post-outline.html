@@ -1,6 +1,7 @@
 <div class="card news_card">
   <a class="text-right" href="{{ include.post.news_url }}" target="_blank">
-    <img class="card-img-top lazy" data-src="{{ include.post.news_thumbnail }}" alt="Card image cap">
+    <!-- data-proofer-ignore: https://github.com/gjtorikian/html-proofer#ignoring-content -->
+    <img class="card-img-top lazy" data-src="{{ include.post.news_thumbnail }}" alt="Card image cap" data-proofer-ignore>
   </a>  
   <div class="card-body">
     <a class="post_url" href="{{ include.post.news_url }}" target="_blank">
