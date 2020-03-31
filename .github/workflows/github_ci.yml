@@ -15,6 +15,9 @@ jobs:
         ruby-version: 2.7.x
     - name: Build and test with Rake
       run: |
+        set -e o pipefail
         gem install bundler
         bundle install --jobs 4 --retry 3
-        rake link_check clean
+        rake link_check
+        exit_status=$?
+        exit $exit_status
