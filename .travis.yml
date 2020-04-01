@@ -2,8 +2,18 @@ language: ruby
 rvm:
   - 2.6.3
 
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
 before_script:
  - chmod +x ./script/cibuild
 
- script: ./script/cibuild
- 
+before_install:
+  - gem update --system --no-document
+  - gem install bundler --no-document
+
+# script: ./script/cibuild
+script: 
+  - bundle exec jekyll build
+  - bundle exec htmlproofer ./_site --empty_alt_ignore --assume-extension
