@@ -20,7 +20,8 @@ task :link_check => [:build] do
   options = {
     assume_extension: true,
     empty_alt_ignore: true,
-    allow_hash_href: true
+    allow_hash_href: true,
+    only_4xx: true
   }
   begin
     puts "Running html proofer..."
