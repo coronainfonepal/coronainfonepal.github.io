@@ -8,7 +8,11 @@ url: "https://coronainfonepal.github.io" # the base hostname & protocol for your
 google_analytics: UA-162159392-1
 
 permalink: /news/:year/:month/:day/:title/
-  
+
+sass:
+  sass_dir : _sass
+  style    : :compressed
+
 # Build settings
 markdown: kramdown
 plugins:
