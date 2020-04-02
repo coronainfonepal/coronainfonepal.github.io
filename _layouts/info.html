@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% assign primary_msg = site.data.siteinfo.primary_msg %}
+<!-- {% assign secondary_msg = site.data.siteinfo.secondary_msg %} -->
+{% include message-of-the-page.html
+           primary_msg=primary_msg
+%}
+
+<section class="info-section pb-5">
+  <div class="info-header-section pt-5 pb-2">
+    <div class="container">
+      {% include info-header.html info=site.info %}
+    </div>
+  </div>
+  <hr>
+  <div class="info-body-section pt-2">
+    <div class="container">
+      <div class="card-columns">
+        {% for link in page.list %}
+          {% include info/news-outline.html news=link %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

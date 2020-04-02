@@ -1,0 +1,17 @@
+<div class="card news_card">
+  <a class="text-right" href="{{ include.news.news_url }}" target="_blank">
+    <!-- data-proofer-ignore: https://github.com/gjtorikian/html-proofer#ignoring-content -->
+    <img class="card-img-top lazy" data-src="{{ include.news.news_thumbnail }}" alt="Card image cap" data-proofer-ignore>
+  </a>
+  <div class="card-body">
+    <div class="published_on mb-1">
+      <i class="fas fa-calendar-alt mr-1"></i> {{ include.news.published_on }}
+    </div>
+    <a class="news_url mb-1" href="{{ include.news.news_url }}" target="_blank">
+      <h5 class="card-title mb-0">{{ include.news.title }}</h5>
+    </a>
+    <!-- <div class="source">
+      Source: {{ include.news.source }}
+    </div> -->
+  </div>
+</div>

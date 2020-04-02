@@ -8,10 +8,10 @@ page_name: home
 ---
 
 <div class="home-section">
-  
+
   {% assign primary_msg = site.data.siteinfo.primary_msg %}
   <!-- {% assign secondary_msg = site.data.siteinfo.secondary_msg %} -->
-  {% include message-of-the-page.html 
+  {% include message-of-the-page.html
              primary_msg=primary_msg
   %}
 
@@ -20,7 +20,7 @@ page_name: home
       <div class="row no-gutters">
         <div class="col-md-6">
           {% include corona-stats.html %}
-        </div>        
+        </div>
         <div class="col-md-6">
           <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/{{ site.data.siteinfo.video_about_corona }}?rel=0&amp;autoplay=1" data-toggle="modal" class="youtube-video-btn">
             <div class="video-play">
@@ -33,15 +33,32 @@ page_name: home
 
   <hr class="section-bar mt-4 mb-5 wow fadeInUp" />
 
-  <div class="latest-news-section py-2 pb-5 wow fadeInUp">
-    <div class="container">
-      <div class="card-columns">
-        {% for post in site.posts limit: 8 %}
-          {% include blogs/post-outline.html post=post %}
-        {% endfor %}
+  <section class="info-section pb-5 wow fadeInUp">
+    <div class="info-body-section pt-2">
+      <div class="container">
+        <div class="card-columns">
+          {% for info in site.info limit: 4 %}
+            {% for news in info.list limit: 2 %}
+              {% include info/news-outline.html news=news %}
+            {% endfor %}
+          {% endfor %}
+        </div>
+
+      </div>
+      <div class="text-center mt-3">
+        <a role="button" href="/info" class="btn btn-dark px-4">
+          सबै समाचारका लागि यहाँ क्लिक गर्नुहोस्
+        </a>
+      </div>
     </div>
-  </div>
-  
+
+    <div class="info-header-section pt-3 pb-2">
+      <div class="container">
+        <span class="news-categories">समाचार श्रेणीया:</span>{% include info-header.html info=site.info %}
+      </div>
+    </div>
+  </section>
+
 </div>
 
 {% include youtube-video-modal.html %}
