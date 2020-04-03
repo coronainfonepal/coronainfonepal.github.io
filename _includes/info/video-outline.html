@@ -6,6 +6,11 @@
     <h5 class="card-title mb-0">{{ include.video.title }}</h5>
     <div class="source">
       <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
+      {% if page.url == "/" %}
+        <span class="badge badge-pill px-3 py-2">
+          {{ include.category }}
+        </span>
+      {% endif %}
     </div>
   </div>
 </div>
