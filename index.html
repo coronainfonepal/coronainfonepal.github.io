@@ -70,7 +70,7 @@ page_name: home
         </div>
         <div class="card-columns">
           {% for video in site.videos limit: 2 %}
-            {% for video in video.list limit: 2 %}
+            {% for video in video.list limit: 3 %}
               {% include info/video-outline.html video=video %}
             {% endfor %}
           {% endfor %}
