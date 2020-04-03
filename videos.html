@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Info
-permalink: /info/
-page_name: info
+title: Videos
+permalink: /videos/
+page_name: videos
 ---
 
 {% assign primary_msg = site.data.siteinfo.primary_msg %}
@@ -14,16 +14,16 @@ page_name: info
 <section class="info-section pb-5">
   <div class="info-header-section pt-5 pb-2">
     <div class="container">
-      {% include info/info-header.html info=site.info %}
+      {% include info/video-header.html videos=site.videos %}
     </div>
   </div>
   <hr>
   <div class="info-body-section pt-2">
     <div class="container">
       <div class="card-columns">
-        {% for info in site.info %}
-          {% for news in info.list %}
-            {% include info/news-outline.html news=news %}
+        {% for video in site.videos %}
+          {% for video in video.list %}
+            {% include info/video-outline.html video=video %}
           {% endfor %}
         {% endfor %}
       </div>

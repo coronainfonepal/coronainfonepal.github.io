@@ -12,6 +12,8 @@ permalink: /blogs/:year/:month/:day/:title/
 collections:
   info:
     output: true
+  videos:
+    output: true
 
 sass:
   sass_dir : _sass
