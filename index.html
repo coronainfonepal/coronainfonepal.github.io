@@ -71,7 +71,6 @@ page_name: home
         <div class="card-columns">
           {% for data in site.videos limit: 2 %}
             {% for video in data.list limit: 3 %}
-            {{ data.category }}
               {% include info/video-outline.html video=video category=data.category %}
             {% endfor %}
           {% endfor %}
