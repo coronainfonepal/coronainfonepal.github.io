@@ -1,6 +1,6 @@
 ---
 layout: info
-category: कोरोना सम्बन्धित
+category: कोरोना
 list:
   - title: "नेपालमै कोरोना टेस्ट किट बनाउदै शिखर वायोटेक"
     source: https://ictsamachar.com

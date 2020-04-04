@@ -15,9 +15,9 @@ layout: default
     </div>
   </div>
   <hr>
-  <div class="info-body-section pt-2">
+  <div class="info-body-section pt-4">
     <div class="container">
-      <div class="card-columns">
+      <div class="row">
         {% for video in page.list %}
           {% include info/video-outline.html video=video %}
         {% endfor %}

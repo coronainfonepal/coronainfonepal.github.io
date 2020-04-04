@@ -18,9 +18,9 @@ page_name: videos
     </div>
   </div>
   <hr>
-  <div class="info-body-section pt-2">
+  <div class="info-body-section pt-4">
     <div class="container">
-      <div class="card-columns">
+      <div class="row">
         {% for video in site.videos %}
           {% for video in video.list %}
             {% include info/video-outline.html video=video %}

@@ -31,15 +31,15 @@ page_name: home
     </div>
   </section>
 
-  <hr class="section-bar mt-4 mb-2 wow fadeInUp" />
+  <hr class="section-bar my-5 wow fadeInUp" />
 
   <section class="info-section pb-5 wow fadeInUp">
     <div class="info-body-section pt-2">
       <div class="container">
-        <div class="text-center mb-4">
+        <div class="text-center mb-5">
           <h3>भर्खरका समाचारहरू</h3>
         </div>
-        <div class="card-columns">
+        <div class="row">
           {% for info in site.info limit: 4 %}
             {% for news in info.list limit: 2 %}
               {% include info/news-outline.html news=news category=info.category %}
@@ -68,7 +68,7 @@ page_name: home
         <div class="text-center mb-4">
           <h3>भर्खरका भिडियोहरू</h3>
         </div>
-        <div class="card-columns">
+        <div class="row">
           {% for data in site.videos limit: 2 %}
             {% for video in data.list limit: 3 %}
               {% include info/video-outline.html video=video category=data.category %}

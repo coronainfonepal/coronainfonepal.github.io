@@ -60,6 +60,11 @@
       font-size: 20px;
     }
   }
+  .news_card {
+    .card-img-top {
+      height: 120px;
+    }
+  }
 }
 
 @media(max-width: 360px) {

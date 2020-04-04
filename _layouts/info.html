@@ -15,9 +15,9 @@ layout: default
     </div>
   </div>
   <hr>
-  <div class="info-body-section pt-2">
+  <div class="info-body-section pt-4">
     <div class="container">
-      <div class="card-columns">
+      <div class="row">
         {% for link in page.list %}
           {% include info/news-outline.html news=link %}
         {% endfor %}
