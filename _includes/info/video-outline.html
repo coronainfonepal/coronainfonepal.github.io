@@ -5,12 +5,16 @@
         <img src="{{ include.video.thumbnail }}" class="card-img-top" alt="loading..."/>
       </a>
       <div class="card-body">
-        <h5 class="card-title mb-0">{{ include.video.title }}</h5>
-        <div class="source">
-          <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
+        <div class="published_on mb-1">
+          <i class="fas fa-calendar-alt mr-1"></i> {{ include.video.published_on }}
           <span class="badge badge-pill px-3 py-2">
             {{ include.category }}
           </span>
+        </div>
+        <h5 class="card-title mb-0">{{ include.video.title }}</h5>
+        <div class="source">
+          <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
+
         </div>
       </div>
     {% else %}
@@ -18,12 +22,15 @@
         <img src="https://img.youtube.com/vi/{{ include.video.id }}/sddefault.jpg" class="card-img-top" alt="loading..."/>
       </a>
       <div class="card-body">
-        <h5 class="card-title mb-0">{{ include.video.title }}</h5>
-        <div class="source">
-          <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
+        <div class="published_on mb-1">
+          <i class="fas fa-calendar-alt mr-1"></i> {{ include.video.published_on }}
           <span class="badge badge-pill px-3 py-2">
             {{ include.category }}
           </span>
+        </div>
+        <h5 class="card-title mb-0">{{ include.video.title }}</h5>
+        <div class="source">
+          <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
         </div>
       </div>
     {% endif %}
