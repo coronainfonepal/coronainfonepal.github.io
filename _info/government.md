@@ -2,6 +2,11 @@
 layout: info
 category: सरकार सम्बन्धित
 list: # add news as per date
+  - title: "लकडाउनमा थप कडाइ : एउटा स्थानीय तहबाट अर्कोमा जान नपाइने"
+    source: https://ekantipur.com
+    published_on: चैत्र २२, २०७६, शनिबार
+    news_url: https://ekantipur.com/news/2020/04/04/15860111540759708.html
+    news_thumbnail: https://assets-cdn-usab.kantipurdaily.com/uploads/source/news/kantipur/2020/third-party/cabinetmeeting-0442020034048-1000x0.jpg
   - title: "केन्द्रीकृत योजना र नियन्त्रण विकेन्द्रित गर्न क्राइसिस म्यानेजमेन्ट सेन्टर"
     source: https://ekantipur.com
     published_on: १८ चैत्र , २०७६, मंगलवार
