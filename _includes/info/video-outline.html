@@ -1,16 +1,33 @@
 <div class="card news_card">
-  <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/{{ include.video.id }}?rel=0&amp;autoplay=1" data-toggle="modal" class="youtube-video-btn">
-    <img src="https://img.youtube.com/vi/{{ include.video.id }}/sddefault.jpg" class="card-img-top" alt="loading..."/>
-  </a>
-  <div class="card-body">
-    <h5 class="card-title mb-0">{{ include.video.title }}</h5>
-    <div class="source">
-      <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
-      {% if page.url == "/" %}
-        <span class="badge badge-pill px-3 py-2">
-          {{ include.category }}
-        </span>
-      {% endif %}
+  {% if include.video.source_platform == "facebook" %}
+    <a href="#facebookVideoModal" data-src="{{ include.video.src }}" data-toggle="modal" class="facebook-video-btn">
+      <img src="{{ include.video.thumbnail }}" class="card-img-top" alt="loading..."/>
+    </a>
+    <div class="card-body">
+      <h5 class="card-title mb-0">{{ include.video.title }}</h5>
+      <div class="source">
+        <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
+        {% if page.url == "/" %}
+          <span class="badge badge-pill px-3 py-2">
+            {{ include.category }}
+          </span>
+        {% endif %}
+      </div>
     </div>
-  </div>
+  {% else %}
+    <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/{{ include.video.id }}?rel=0&amp;autoplay=1" data-toggle="modal" class="youtube-video-btn">
+      <img src="https://img.youtube.com/vi/{{ include.video.id }}/sddefault.jpg" class="card-img-top" alt="loading..."/>
+    </a>
+    <div class="card-body">
+      <h5 class="card-title mb-0">{{ include.video.title }}</h5>
+      <div class="source">
+        <b>श्रोत:</b><a href="{{ include.video.source_url }}" class="ml-1" target="_blank">{{ include.video.source }}</a>
+        {% if page.url == "/" %}
+          <span class="badge badge-pill px-3 py-2">
+            {{ include.category }}
+          </span>
+        {% endif %}
+      </div>
+    </div>
+  {% endif %}
 </div>
