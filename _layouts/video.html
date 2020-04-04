@@ -19,7 +19,7 @@ layout: default
     <div class="container">
       <div class="row">
         {% for video in page.list %}
-          {% include info/video-outline.html video=video %}
+          {% include info/video-outline.html video=video category=page.category %}
         {% endfor %}
       </div>
     </div>

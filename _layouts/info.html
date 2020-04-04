@@ -19,7 +19,7 @@ layout: default
     <div class="container">
       <div class="row">
         {% for link in page.list %}
-          {% include info/news-outline.html news=link %}
+          {% include info/news-outline.html news=link category=page.category %}
         {% endfor %}
       </div>
     </div>

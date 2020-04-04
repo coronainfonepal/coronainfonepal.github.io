@@ -23,7 +23,7 @@ page_name: info
       <div class="row">
         {% for info in site.info %}
           {% for news in info.list %}
-            {% include info/news-outline.html news=news %}
+            {% include info/news-outline.html news=news category=info.category %}
           {% endfor %}
         {% endfor %}
       </div>
