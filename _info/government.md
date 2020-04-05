@@ -2,6 +2,16 @@
 layout: info
 category: सरकार सम्बन्धित
 list: # add news as per date
+  - title: "‘सुदूरपश्चिम उच्च जोखिममा छ, राष्ट्रिय संकट आउन सक्छ’"
+    source: https://www.onlinekhabar.com/
+    published_on: २३ चैत्र, २०७६, आइतवार
+    news_url: https://www.onlinekhabar.com/2020/04/851452
+    news_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/04/gunaraj-awasthi.jpg
+  - title: "नेपाल कोरोना संक्रमणको दोस्रो चरणमा"
+    source: https://www.onlinekhabar.com/
+    published_on: २२ चैत्र, २०७६, शनिबार
+    news_url: https://www.onlinekhabar.com/2020/04/851214
+    news_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/04/Dr-Bikash-Devkota.jpg
   - title: "लकडाउनमा थप कडाइ : एउटा स्थानीय तहबाट अर्कोमा जान नपाइने"
     source: https://ekantipur.com
     published_on: चैत्र २२, २०७६, शनिबार
