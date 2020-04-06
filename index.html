@@ -15,73 +15,11 @@ page_name: home
              primary_msg=primary_msg
   %}
 
-  <section class="banner-area wow fadeInUp">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-md-6">
-          {% include corona-stats.html %}
-        </div>
-        <div class="col-md-6">
-          <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/{{ site.data.siteinfo.video_about_corona }}?rel=0&amp;autoplay=1" data-toggle="modal" class="youtube-video-btn">
-            <div class="video-play">
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  {% include banner.html %}
 
   <hr class="section-bar my-5 wow fadeInUp" />
 
-  <section class="info-section pb-5 wow fadeInUp">
-    <div class="info-body-section pt-2">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h3>भर्खरका समाचारहरू</h3>
-        </div>
-        <div class="row">
-          {% for info in site.info limit: 4 %}
-            {% for news in info.list limit: 2 %}
-              {% include info/news-outline.html news=news category=info.category %}
-            {% endfor %}
-          {% endfor %}
-        </div>
-
-      </div>
-      <div class="text-center mt-3">
-        <a role="button" href="/info" class="btn btn-dark px-4">
-          सबै समाचारका लागि यहाँ क्लिक गर्नुहोस्
-        </a>
-      </div>
-    </div>
-
-    <div class="info-header-section pt-3 pb-2">
-      <div class="container">
-        <span class="news-categories">समाचार श्रेणीया:</span>{% include info/info-header.html info=site.info %}
-      </div>
-    </div>
-  </section>
-
-  <section class="video-section pb-5 wow fadeInUp">
-    <div class="info-body-section pt-2">
-      <div class="container">
-        <div class="text-center mb-4">
-          <h3>भर्खरका भिडियोहरू</h3>
-        </div>
-        <div class="row">
-          {% for data in site.videos limit: 2 %}
-            {% for video in data.list limit: 3 %}
-              {% include info/video-outline.html video=video category=data.category %}
-            {% endfor %}
-          {% endfor %}
-        </div>
-      </div>
-      <div class="text-center mt-3">
-        <a role="button" href="/videos" class="btn btn-dark px-4">
-          सबै भिडियोहरूका लागि यहाँ क्लिक गर्नुहोस्
-        </a>
-      </div>
-    </div>
-  </section>
+  {% include news-highlights.html %}
+  {% include video-highlights.html %}
 
 </div>

@@ -1,0 +1,33 @@
+<section class="info-section pb-5 wow fadeInUp">
+  <div class="info-body-section pt-2">
+    <div class="container">
+      <div class="text-center mb-4">
+        <h3>
+          {% if page.lang == "eng" %}
+            Recent News
+          {% else %}
+            भर्खरका समाचारहरू
+          {% endif %}
+        </h3>
+      </div>
+      <div class="row">
+        {% for info in site.info limit: 4 %}
+          {% for news in info.list limit: 2 %}
+            {% include info/news-outline.html news=news category=info.category %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <a role="button" href="/info" class="btn btn-dark px-4">
+        सबै समाचारका लागि यहाँ क्लिक गर्नुहोस्
+      </a>
+    </div>
+  </div>
+
+  <div class="info-header-section pt-3 pb-2">
+    <div class="container">
+      <span class="news-categories">समाचार श्रेणीया:</span>{% include info/info-header.html info=site.info %}
+    </div>
+  </div>
+</section>
