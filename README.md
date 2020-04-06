@@ -3,7 +3,6 @@
 
 A web portal to display curated list of news and information related to [COVID-19](https://en.wikipedia.org/wiki/Covid-19) virus for Nepal.
 
-![GitHub CI](https://github.com/coronainfonepal/coronainfonepal.github.io/workflows/GitHub%20CI/badge.svg?branch=master)
 ---
 
 # Run the project locally
