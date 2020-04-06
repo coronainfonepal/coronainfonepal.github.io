@@ -3,27 +3,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png">
 
   <!-- Stylesheets -->
-  
+
   {%- if jekyll.environment == "production" -%}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/1904cca145.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
   {% else %}
-    <link rel="stylesheet" href="{{ "/assets/css/bootstrap-4.4.0-min.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/fontawesome-5.13.0-all.min.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/animate.min.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/simplelightbox.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap-4.4.0-min.css" | prepend: site.baseurl_root }}">
+    <link rel="stylesheet" href="{{ "/assets/css/fontawesome-5.13.0-all.min.css" | prepend: site.baseurl_root }}">
+    <link rel="stylesheet" href="{{ "/assets/css/animate.min.css" | prepend: site.baseurl_root }}">
+    <link rel="stylesheet" href="{{ "/assets/css/simplelightbox.min.css" | prepend: site.baseurl_root }}">
   {% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl_root }}">
 
-  {%- feed_meta -%}
-  
   {%- if jekyll.environment == "production" and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}

@@ -1,0 +1,17 @@
+navbar:
+  home: Home
+  news: News
+  videos: Videos
+  contact: Contact Us
+  contribute: Contribute
+  logotag_line: For the community. By the community.
+
+# Pages
+index:
+  primary_msg: Our goal is support government in fighting against COVID-19.
+  corona_stats:
+    world: World
+    nepal: Nepal
+    total_infected: Total Infected
+    total_death: Total Deaths
+    total_recovered: Total Recovered

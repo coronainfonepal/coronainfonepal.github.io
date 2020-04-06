@@ -1,0 +1,17 @@
+navbar:
+  home: होमपेज
+  news: समाचार
+  videos: भिडियोहरू
+  contact: सम्पर्क-गर्नु
+  contribute: योगदान-दिनुहोस्
+  logotag_line: समुदायको लागि समुदाय द्वारा।
+
+# Pages
+index:
+  primary_msg: हाम्रो लक्ष्य कोरोना भाइरसको विरुद्ध लड्न सरकारलाई सहयोग पुर्‍याउनु हो।
+  corona_stats:
+    world: संसार
+    nepal: नेपाल
+    total_infected: कुल संक्रमित
+    total_death: कुल मृत्यु
+    total_recovered: कुल स्वस्थलाभ

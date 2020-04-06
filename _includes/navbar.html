@@ -2,7 +2,7 @@
   <a class="navbar-brand" href="/">
     {{ site.title }}
   </a>
-  <p class="tagline">(समुदायको लागि समुदाय द्वारा।)</p>
+  <p class="tagline">({% t navbar.logotag_line %})</p>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
@@ -10,19 +10,19 @@
   <div class="collapse navbar-collapse" data-wow-delay=".5s" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item {% if page.page_name == 'home' %}active{% endif %}">
-        <a class="nav-link" href="/">होमपेज</a>
+        <a class="nav-link" href="{{ site.baseurl}}/">{% t navbar.home %}</a>
       </li>
       <li class="nav-item {% if page.page_name == 'info' %}active{% endif %}">
-        <a class="nav-link" href="/info">समाचार</a>
+        <a class="nav-link" href="{{ site.baseurl}}/info">{% t navbar.news %}</a>
       </li>
       <li class="nav-item {% if page.page_name == 'videos' %}active{% endif %}">
-        <a class="nav-link" href="/videos">भिडियोहरू</a>
+        <a class="nav-link" href="{{ site.baseurl}}/videos">{% t navbar.videos %}</a>
       </li>
       <li class="nav-item {% if page.page_name == 'contact' %}active{% endif %}">
-        <a class="nav-link" href="/contact">सम्पर्क-गर्नु</a>
+        <a class="nav-link" href="{{ site.baseurl}}/contact">{% t navbar.contact %}</a>
       </li>
       <li class="nav-item {% if page.page_name == 'contribute' %}active{% endif %}">
-        <a class="nav-link" href="/contribute">योगदान-दिनुहोस्</a>
+        <a class="nav-link" href="{{ site.baseurl}}/contribute">{% t navbar.contribute %}</a>
       </li>
     </ul>
   </div>

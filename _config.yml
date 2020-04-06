@@ -3,11 +3,19 @@ email: budhram.gurung01@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Get the reliable and authentic information regarding COVID-19 disease
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://coronainfonepal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://coronainfonepal.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 google_analytics: UA-162159392-1
 
 permalink: /blogs/:year/:month/:day/:title/
+
+languages: ["np", "en"]
+exclude_from_localizations:
+  - "assets"
+  - "script"
+  - "README.md"
+  - "Rakefile"
+  - "feed.xml"
 
 collections:
   info:
@@ -22,5 +30,5 @@ sass:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-paginate
+  - jekyll-multiple-languages-plugin
