@@ -1,3 +1,5 @@
+# Disabled due to
+# https://github.com/coronainfonepal/coronainfonepal.github.io/issues/11
 name: GitHub CI
 
 on: [push, pull_request]
