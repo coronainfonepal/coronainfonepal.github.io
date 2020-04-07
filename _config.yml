@@ -20,7 +20,11 @@ exclude_from_localizations:
 collections:
   info:
     output: true
+  info_en:
+    output: true
   videos:
+    output: true
+  videos_en:
     output: true
 
 sass:

@@ -1,8 +1,8 @@
 ---
 layout: video
-category: बिरामी को आवाज
+category: Patient Voices
 list:
-  - title: "अमेरिकामा कोरोना लागेकी चेलिले हस्पिटलबाटै नेपालीहरुलाई यसो भनिन्"
+  - title: Corona infected Nepali girl said this from America
     id: nCb8F1yg1XE
     published_on: चैत्र २१, २०७६, शुक्रवार
     source_platform: youtube

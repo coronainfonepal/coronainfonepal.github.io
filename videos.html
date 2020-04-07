@@ -14,18 +14,30 @@ page_name: videos
 <section class="info-section pb-5">
   <div class="info-header-section pt-5 pb-2">
     <div class="container">
-      {% include info/video-header.html videos=site.videos %}
+      {% if site.lang == "en" %}
+        {% include info/video-header.html videos=site.videos_en %}
+      {% else %}
+        {% include info/video-header.html videos=site.videos %}
+      {% endif %}
     </div>
   </div>
   <hr>
   <div class="info-body-section pt-4">
     <div class="container">
       <div class="row">
-        {% for data in site.videos %}
-          {% for video in data.list %}
-            {% include info/video-outline.html video=video category=data.category %}
+        {% if site.lang == "en" %}
+          {% for data in site.videos_en %}
+            {% for video in data.list %}
+              {% include info/video-outline.html video=video category=data.category %}
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
+        {% else %}
+          {% for data in site.videos %}
+            {% for video in data.list %}
+              {% include info/video-outline.html video=video category=data.category %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
       </div>
     </div>
   </div>

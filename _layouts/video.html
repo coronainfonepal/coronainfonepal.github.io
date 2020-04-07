@@ -1,5 +1,6 @@
 ---
 layout: default
+page_name: videos
 ---
 
 {% assign primary_msg = site.data.siteinfo.primary_msg %}
@@ -11,7 +12,11 @@ layout: default
 <section class="info-section pb-5">
   <div class="info-header-section pt-5 pb-2">
     <div class="container">
-      {% include info/video-header.html videos=site.videos %}
+      {% if site.lang == "en" %}
+        {% include info/video-header.html videos=site.videos_en %}
+      {% else %}
+        {% include info/video-header.html videos=site.videos %}
+      {% endif %}
     </div>
   </div>
   <hr>
