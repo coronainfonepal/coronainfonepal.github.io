@@ -3,11 +3,7 @@
     <div class="container">
       <div class="text-center mb-4">
         <h3>
-          {% if page.lang == "eng" %}
-            Recent News
-          {% else %}
-            भर्खरका समाचारहरू
-          {% endif %}
+          {% t index.recent_news %}
         </h3>
       </div>
       <div class="row">
@@ -20,14 +16,14 @@
     </div>
     <div class="text-center mt-3">
       <a role="button" href="/info" class="btn btn-dark px-4">
-        सबै समाचारका लागि यहाँ क्लिक गर्नुहोस्
+        {% t index.read_all_news_btn %}
       </a>
     </div>
   </div>
 
   <div class="info-header-section pt-3 pb-2">
     <div class="container">
-      <span class="news-categories">समाचार श्रेणीया:</span>{% include info/info-header.html info=site.info %}
+      <span class="news-categories">{% t index.news_categories %}:</span>{% include info/info-header.html info=site.info %}
     </div>
   </div>
 </section>

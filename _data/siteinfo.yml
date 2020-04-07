@@ -2,22 +2,28 @@ video_about_corona: -sExYoXmhF4
 # owSNrBPCbo0
 video_of_day:
 corona_stats:
-  nonmobile_source: https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6
-  mobile_source: https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61
-  world:
-    confirmed: १0,१७,६९३
-    deaths: ५३,१७९
-    recovered: २१२,0७२
-  nepal:
-    confirmed: ६
-    deaths: 0
-    recovered: ५
-primary_msg: हाम्रो लक्ष्य कोरोना भाइरसको विरुद्ध लड्न सरकारलाई सहयोग पुर्‍याउनु हो।
-secondary_msg:
+  source: https://www.worldometers.info/coronavirus/
+  np:
+    world:
+      confirmed: १२,८७,४६५
+      deaths: ७0,५५४
+      recovered: २७१,९८२
+    nepal:
+      confirmed: ९
+      deaths: 0
+      recovered: १
+  en:
+    world:
+      confirmed: 12,87,465
+      deaths: 70,554
+      recovered: 271,982
+    nepal:
+      confirmed: 9
+      deaths: 0
+      recovered: 1
 fbgroup: https://www.facebook.com/groups/577606692841359
 fbgroup_logo: img/join_fbgroup.png
 email1: mr.sushant.dahal@gmail.com
 email2: budhram.gurung01@gmail.com
 phone1: +977 9862208771
 phone2: +977 9841900488
-

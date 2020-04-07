@@ -9,11 +9,7 @@ page_name: home
 
 <div class="home-section">
 
-  {% assign primary_msg = site.data.siteinfo.primary_msg %}
-  <!-- {% assign secondary_msg = site.data.siteinfo.secondary_msg %} -->
-  {% include message-of-the-page.html
-             primary_msg=primary_msg
-  %}
+  {% include message-of-the-page.html %}
 
   {% include banner.html %}
 

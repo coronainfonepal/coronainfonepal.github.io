@@ -2,7 +2,7 @@
   <div class="info-body-section pt-2">
     <div class="container">
       <div class="text-center mb-4">
-        <h3>भर्खरका भिडियोहरू</h3>
+        <h3>{% t index.recent_videos %}</h3>
       </div>
       <div class="row">
         {% for data in site.videos limit: 2 %}
@@ -14,7 +14,7 @@
     </div>
     <div class="text-center mt-3">
       <a role="button" href="/videos" class="btn btn-dark px-4">
-        सबै भिडियोहरूका लागि यहाँ क्लिक गर्नुहोस्
+        {% t index.view_all_videos_btn %}
       </a>
     </div>
   </div>

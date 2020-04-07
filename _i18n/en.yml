@@ -1,3 +1,8 @@
+common:
+  source: Source
+  click_here: Click Here
+  contribute_pitch: Do you want to contribute fighting against COVID-19?
+
 navbar:
   home: Home
   news: News
@@ -15,3 +20,9 @@ index:
     total_infected: Total Infected
     total_death: Total Deaths
     total_recovered: Total Recovered
+  recent_news: Recent News
+  read_all_news_btn: Read All News
+  news_categories: News Categories
+  recent_videos: Recent Videos
+  view_all_videos_btn: View All Videos
+

@@ -4,9 +4,26 @@
       <div class="world-stats px-4 py-3">
         <h5>{% t index.corona_stats.world %} <i class="fas fa-globe-americas"></i></h5>
         <div class="stats-details">
-          <b>{% t index.corona_stats.total_infected %}:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.confirmed }}<br>
-          <b>{% t index.corona_stats.total_death %}:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.deaths }}<br>
-          <b>{% t index.corona_stats.total_recovered %}:&nbsp;</b> {{ site.data.siteinfo.corona_stats.world.recovered }}
+          <b>{% t index.corona_stats.total_infected %}:&nbsp;</b>
+            {% if site.lang == "en" %}
+              {{ site.data.siteinfo.corona_stats.en.world.confirmed }}
+            {% else %}
+              {{ site.data.siteinfo.corona_stats.np.world.confirmed }}
+            {% endif %}
+          <br>
+          <b>{% t index.corona_stats.total_death %}:&nbsp;</b>
+            {% if site.lang == "en" %}
+              {{ site.data.siteinfo.corona_stats.en.world.deaths }}
+            {% else %}
+              {{ site.data.siteinfo.corona_stats.np.world.deaths }}
+            {% endif %}
+          <br>
+          <b>{% t index.corona_stats.total_recovered %}:&nbsp;</b>
+            {% if site.lang == "en" %}
+              {{ site.data.siteinfo.corona_stats.en.world.recovered }}
+            {% else %}
+              {{ site.data.siteinfo.corona_stats.np.world.recovered }}
+            {% endif %}
         </div>
       </div>
     </div>
@@ -14,22 +31,35 @@
       <div class="nepal-stats px-4 py-3">
         <h5>{% t index.corona_stats.nepal %} <img src="/assets/img/nepal-flag.png" /></h5>
         <div class="stats-details">
-          <b>{% t index.corona_stats.total_infected %}:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.confirmed }}<br>
-          <b>{% t index.corona_stats.total_death %}:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.deaths }}<br>
-          <b>{% t index.corona_stats.total_recovered %}:&nbsp;</b> {{ site.data.siteinfo.corona_stats.nepal.recovered }}
+          <b>{% t index.corona_stats.total_infected %}:&nbsp;</b>
+            {% if site.lang == "en" %}
+              {{ site.data.siteinfo.corona_stats.en.nepal.confirmed }}
+            {% else %}
+              {{ site.data.siteinfo.corona_stats.np.nepal.confirmed }}
+            {% endif %}
+          <br>
+          <b>{% t index.corona_stats.total_death %}:&nbsp;</b>
+            {% if site.lang == "en" %}
+              {{ site.data.siteinfo.corona_stats.en.nepal.deaths }}
+            {% else %}
+              {{ site.data.siteinfo.corona_stats.np.nepal.deaths }}
+            {% endif %}
+          <br>
+          <b>{% t index.corona_stats.total_recovered %}:&nbsp;</b>
+            {% if site.lang == "en" %}
+              {{ site.data.siteinfo.corona_stats.en.nepal.recovered }}
+            {% else %}
+              {{ site.data.siteinfo.corona_stats.np.nepal.recovered }}
+            {% endif %}
         </div>
       </div>
     </div>
   </div>
 
   <h6 class="source mt-1">
-    <b>श्रोत:&nbsp;</b>
+    <b>{% t common.source %}:&nbsp;</b>
     <a href="{{ site.data.siteinfo.corona_stats.nonmobile_source }}" target="_blank">
-      <i class="fas fa-desktop"></i>
-    </a>
-    &nbsp;|&nbsp;
-    <a href="{{ site.data.siteinfo.corona_stats.mobile_source }}" target="_blank">
-      <b>&nbsp;</b><i class="fas fa-mobile-alt"></i>
+      https://www.worldometers.info/coronavirus/
     </a>
   </h6>
 </section>
