@@ -3,6 +3,14 @@
     {{ site.title }}
   </a>
   <p class="tagline">({% t navbar.logotag_line %})</p>
+
+  <div class="language-switch-section">
+    <a id="btn-nepali" role="button"
+      class="btn btn-sm btn-danger ml-2 px-3{% if site.lang != 'en' %} hide{% endif %}">नेपाली</a>
+    <a id="btn-english" role="button"
+      class="btn btn-sm btn-danger ml-2 px-3{% if site.lang == 'en' %} hide{% endif %}">English</a>
+  </div>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>

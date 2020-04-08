@@ -51,6 +51,6 @@ list: # add news as per date
     source: https://www.onlinekhabar.com
     published_on: ९ चैत, २०७६, सोमवार
     news_url: https://www.onlinekhabar.com/2020/03/846544
-    news_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/03/Cabinet_Meeting.jpg
+    local_thumbnail: img/info_en/nepal-closes-border.jpg
 ---
 

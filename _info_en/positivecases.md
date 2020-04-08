@@ -6,5 +6,5 @@ list:
     source: www.nepalitimes.com
     published_on: 23 Mar, 2020, Mon
     news_url: https://www.nepalitimes.com/latest/nepal-contact-tracing-2nd-covid-19-case/
-    news_thumbnail: https://www.nepalitimes.com/wp-content/uploads/2020/03/new-coronavirus-case-confirmed-in-Nepal-NT.jpg
+    local_thumbnail: /img/info_en/second-corona-case.jpg
 ---

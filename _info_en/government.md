@@ -11,5 +11,5 @@ list: # add news as per date
     source: www.nepalitimes.com
     published_on: 22 Mar, 2020, Sun
     news_url: https://www.nepalitimes.com/latest/nepal-closes-land-border-with-india-china/
-    news_thumbnail: https://www.nepalitimes.com/wp-content/uploads/2020/03/Nepal-closes-its-border-with-India-due-to-coronavirus-pandemic-NT.jpg
+    local_thumbnail: img/info_en/nepal-closes-border.jpg
 ---

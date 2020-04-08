@@ -54,6 +54,18 @@ $(function(){
   // Activate wow.js
   new WOW().init();
 
+  // Language switch
+  $('.language-switch-section .btn').on("click", function(e){
+    let new_path;
+
+    if(location.pathname.indexOf("en") != -1) {
+      new_path = location.pathname.replace("en/", "");
+    } else {
+      new_path = "/en";
+    }
+    window.location.href = new_path;
+  });
+
   // rendering youtube video in the Modal
   var $videoSrc;
   $(".youtube-video-btn").click(function () {

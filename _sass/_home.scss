@@ -184,6 +184,25 @@ pre {
   font-weight: bold;
 }
 
+.language-switch-section {
+  .btn {
+    background: #931717;
+    border-color: darkred;
+    color: #fff;
+
+    &:hover {
+      color: yellow;
+    }
+    &:active, &:focus, &:disabled {
+      background: #931717;
+      border-color: darkred;
+    }
+  }
+  .hide {
+    display: none;
+  }
+}
+
 .contribute-pitch {
   background: $color2;
   color: $color1;

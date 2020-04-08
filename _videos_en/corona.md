@@ -2,9 +2,9 @@
 layout: video
 category: Corona
 list:
-  - title: Let's understand what is COVID-19
-    id: owSNrBPCbo0
-    published_on: १४ चैत, २०७६, शुक्रवार
-    source: Poor Mans Studio
+  - title: The Coronavirus Explained & What You Should Do
+    id: BtN-goy9VOY
+    published_on: 19 Mar, 2020, Thu
+    source: Kurzgesagt – In a Nutshell
     source_url: https://www.youtube.com/channel/UCs-uGNRHAn_yJB3oFvjzM7w
 ---

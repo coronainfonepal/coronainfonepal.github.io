@@ -2,7 +2,8 @@
   <div class="card news_card">
     <a class="text-right" href="{{ include.news.news_url }}" target="_blank">
       <!-- data-proofer-ignore: https://github.com/gjtorikian/html-proofer#ignoring-content -->
-      <img class="card-img-top lazy" data-src="{{ include.news.news_thumbnail }}" alt="Loading ..." data-proofer-ignore>
+      {% capture thumbnail %}{% if include.news.local_thumbnail %}/assets/{{ include.news.local_thumbnail }}{% else %}{{ include.news.news_thumbnail }}{% endif %}{% endcapture %}
+      <img class="card-img-top lazy" data-src="{{ thumbnail }}" alt="Loading ..." data-proofer-ignore>
     </a>
     <div class="card-body">
       <div class="published_on mb-1">
