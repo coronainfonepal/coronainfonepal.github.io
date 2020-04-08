@@ -52,3 +52,18 @@
     margin-top: -100px;
   }
 }
+
+
+.contact-section {
+  .contact-info {
+    color: #666;
+    // border-radius: 0.5rem;
+
+    .fas, .fab {
+      font-size: 2em;
+    }
+  }
+  .form-control {
+    font-size: 13px;
+  }
+}
