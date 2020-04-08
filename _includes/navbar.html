@@ -6,9 +6,11 @@
 
   <div class="language-switch-section">
     <a id="btn-nepali" role="button"
-      class="btn btn-sm btn-danger ml-2 px-3{% if site.lang != 'en' %} hide{% endif %}">नेपाली</a>
+      class="btn btn-sm btn-danger ml-2 px-3{% if site.lang != 'en' %} hide{% endif %}">
+      <img src="{{ site.url}}/assets/img/nepal-flag.png" class="mr-2" />नेपाली</a>
     <a id="btn-english" role="button"
-      class="btn btn-sm btn-danger ml-2 px-3{% if site.lang == 'en' %} hide{% endif %}">English</a>
+      class="btn btn-sm btn-danger ml-2 px-3{% if site.lang == 'en' %} hide{% endif %}">
+      <img src="{{ site.url}}/assets/img/britain-flag.png" class="mr-2" />English</a>
   </div>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"

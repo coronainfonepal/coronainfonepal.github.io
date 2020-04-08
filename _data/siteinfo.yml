@@ -1,27 +1,8 @@
+corona_stats_source: https://www.worldometers.info/coronavirus/
 video_about_corona: -sExYoXmhF4
 video_about_corona_en: BtN-goy9VOY
 # owSNrBPCbo0
 video_of_day:
-corona_stats:
-  source: https://www.worldometers.info/coronavirus/
-  np:
-    world:
-      confirmed: १२,८७,४६५
-      deaths: ७0,५५४
-      recovered: २७१,९८२
-    nepal:
-      confirmed: ९
-      deaths: 0
-      recovered: १
-  en:
-    world:
-      confirmed: 12,87,465
-      deaths: 70,554
-      recovered: 271,982
-    nepal:
-      confirmed: 9
-      deaths: 0
-      recovered: 1
 fbgroup: https://www.facebook.com/groups/577606692841359
 fbgroup_logo: img/join_fbgroup.png
 email1: mr.sushant.dahal@gmail.com

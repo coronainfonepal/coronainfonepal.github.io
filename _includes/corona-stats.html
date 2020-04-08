@@ -6,23 +6,23 @@
         <div class="stats-details">
           <b>{% t index.corona_stats.total_infected %}:&nbsp;</b>
             {% if site.lang == "en" %}
-              {{ site.data.siteinfo.corona_stats.en.world.confirmed }}
+              {{ site.data.corona_stats.en.world.confirmed }}
             {% else %}
-              {{ site.data.siteinfo.corona_stats.np.world.confirmed }}
+              {{ site.data.corona_stats.np.world.confirmed }}
             {% endif %}
           <br>
           <b>{% t index.corona_stats.total_death %}:&nbsp;</b>
             {% if site.lang == "en" %}
-              {{ site.data.siteinfo.corona_stats.en.world.deaths }}
+              {{ site.data.corona_stats.en.world.deaths }}
             {% else %}
-              {{ site.data.siteinfo.corona_stats.np.world.deaths }}
+              {{ site.data.corona_stats.np.world.deaths }}
             {% endif %}
           <br>
           <b>{% t index.corona_stats.total_recovered %}:&nbsp;</b>
             {% if site.lang == "en" %}
-              {{ site.data.siteinfo.corona_stats.en.world.recovered }}
+              {{ site.data.corona_stats.en.world.recovered }}
             {% else %}
-              {{ site.data.siteinfo.corona_stats.np.world.recovered }}
+              {{ site.data.corona_stats.np.world.recovered }}
             {% endif %}
         </div>
       </div>
@@ -33,23 +33,23 @@
         <div class="stats-details">
           <b>{% t index.corona_stats.total_infected %}:&nbsp;</b>
             {% if site.lang == "en" %}
-              {{ site.data.siteinfo.corona_stats.en.nepal.confirmed }}
+              {{ site.data.corona_stats.en.nepal.confirmed }}
             {% else %}
-              {{ site.data.siteinfo.corona_stats.np.nepal.confirmed }}
+              {{ site.data.corona_stats.np.nepal.confirmed }}
             {% endif %}
           <br>
           <b>{% t index.corona_stats.total_death %}:&nbsp;</b>
             {% if site.lang == "en" %}
-              {{ site.data.siteinfo.corona_stats.en.nepal.deaths }}
+              {{ site.data.corona_stats.en.nepal.deaths }}
             {% else %}
-              {{ site.data.siteinfo.corona_stats.np.nepal.deaths }}
+              {{ site.data.corona_stats.np.nepal.deaths }}
             {% endif %}
           <br>
           <b>{% t index.corona_stats.total_recovered %}:&nbsp;</b>
             {% if site.lang == "en" %}
-              {{ site.data.siteinfo.corona_stats.en.nepal.recovered }}
+              {{ site.data.corona_stats.en.nepal.recovered }}
             {% else %}
-              {{ site.data.siteinfo.corona_stats.np.nepal.recovered }}
+              {{ site.data.corona_stats.np.nepal.recovered }}
             {% endif %}
         </div>
       </div>
@@ -58,8 +58,8 @@
 
   <h6 class="source mt-1">
     <b>{% t common.source %}:&nbsp;</b>
-    <a href="{{ site.data.siteinfo.corona_stats.source }}" target="_blank">
-      {{ site.data.siteinfo.corona_stats.source }}
+    <a href="{{ site.data.corona_stats.source }}" target="_blank">
+      {{ site.data.siteinfo.corona_stats_source }}
     </a>
   </h6>
 </section>
