@@ -2,6 +2,15 @@ common:
   source: Source
   click_here: Click Here
   contribute_pitch: Do you want to contribute fighting against COVID-19?
+  disclaimer_label: Disclaimer
+  disclaimer_msg: |
+    All news, videos, and links listed on the website are taken from
+    several online sources and curated or filtered by the community.
+    The intention of this website to present the information as reliable
+    as possible through the curation process by the community members.
+    Any of the content do not necessarily reflect the opinions of this website
+    or any of community member. We seek apology for any inconvenience caused
+    by any of the content and obliged to remove such content immediately.
 
 navbar:
   home: Home
