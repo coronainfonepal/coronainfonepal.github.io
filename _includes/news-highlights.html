@@ -7,23 +7,33 @@
         </h3>
       </div>
       <div class="row">
-        {% for info in site.info limit: 4 %}
-          {% for news in info.list limit: 2 %}
-            {% include info/news-outline.html news=news category=info.category %}
+        {% if site.lang == "en" %}
+          {% for info in site.info_en %}
+            {% for news in info.list limit: 1 %}
+              {% include info/news-outline.html news=news category=info.category %}
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
+        {% else %}
+          {% for info in site.info %}
+            {% for news in info.list limit: 1 %}
+              {% include info/news-outline.html news=news category=info.category %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
       </div>
-    </div>
-    <div class="text-center mt-3">
-      <a role="button" href="/info" class="btn btn-dark px-4">
-        {% t index.read_all_news_btn %}
-      </a>
     </div>
   </div>
 
   <div class="info-header-section pt-3 pb-2">
     <div class="container">
-      <span class="news-categories">{% t index.news_categories %}:</span>{% include info/info-header.html info=site.info %}
+      <div class="text-center">
+        <span class="news-categories">{% t index.category_news_label %}:</span>
+        {% if site.lang == "en" %}
+          {% include info/info-header.html info=site.info_en %}
+        {% else %}
+          {% include info/info-header.html info=site.info %}
+        {% endif %}
+      </div>
     </div>
   </div>
 </section>

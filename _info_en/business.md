@@ -1,11 +1,11 @@
 ---
 layout: info
-category: Concerns
+category: Business
 list:
-  - title: Final exams of grade 11, 12 postponed indefinitely
+  - title: Latest relief for businesses in Nepal to combat COVID-19
     source: https://onlinekhabar.com/
-    published_on: 7 Apr, 2020, Tue
-    news_url: https://english.onlinekhabar.com/final-exams-of-grade-11-12-postponed-indefinitely.html
+    published_on: 3 Apr, 2020, Fri
+    news_url: https://lexadvise.com/latest-relief-for-businesses-in-nepal-to-combat-covid-19/
     news_thumbnail: https://english.onlinekhabar.com/wp-content/uploads/2017/05/National-Examinations-Board-NEB-Nepal.jpg
   - title: Oli warns next two weeks can be more challenging
     source: https://onlinekhabar.com/

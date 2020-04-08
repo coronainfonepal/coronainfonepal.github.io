@@ -2,9 +2,9 @@
 layout: info
 category: Positive Cases
 list:
-  - title: "[Sixth Case] Found sixth case in Nepal"
-    source: http://annapurnapost.com
-    published_on: २० चैत, २०७६, मंगलवार
-    news_url: http://annapurnapost.com/news/152094
-    news_thumbnail: http://bg.annapurnapost.com/uploads/media/corona-test_20200331065452.jpg
+  - title: "[2nd Case] Nepal contact tracing 2nd COVID-19 case"
+    source: www.nepalitimes.com
+    published_on: 23 Mar, 2020, Mon
+    news_url: https://www.nepalitimes.com/latest/nepal-contact-tracing-2nd-covid-19-case/
+    news_thumbnail: https://www.nepalitimes.com/wp-content/uploads/2020/03/new-coronavirus-case-confirmed-in-Nepal-NT.jpg
 ---

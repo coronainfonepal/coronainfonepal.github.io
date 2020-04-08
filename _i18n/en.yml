@@ -22,6 +22,7 @@ index:
     total_recovered: Total Recovered
   recent_news: Recent News
   read_all_news_btn: Read All News
+  category_news_label: Click to read for specific category
   news_categories: News Categories
   recent_videos: Recent Videos
   view_all_videos_btn: View All Videos

@@ -2,6 +2,11 @@
 layout: info
 category: विचारशील
 list:
+  - title: "स्वास्थ्यकर्मीको सुरक्षाको प्रश्न"
+    source: https://nayapatrikadaily.com
+    published_on: २५ चैत, २०७६, मंगलबार
+    news_url: https://nayapatrikadaily.com/news-details/40636/2020-04-07
+    news_thumbnail: https://nayapatrikadaily.com/uploads/news/images/partek-and-Nisha-_-nayapatrika2020-04-07-10-07-53.jpeg
   - title: "‘लकडाउन’ मात्र समाधान होइन"
     source: http://annapurnapost.com
     published_on: १६ चैत्र, २०७६, आइतवार

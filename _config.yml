@@ -20,6 +20,12 @@ exclude_from_localizations:
 collections:
   info:
     output: true
+    order:
+      - government.md
+      - positivecases.md
+      - corona.md
+      - concerns.md
+      - international.md
   info_en:
     output: true
   videos:

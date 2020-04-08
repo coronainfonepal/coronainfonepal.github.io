@@ -5,15 +5,23 @@
         <h3>{% t index.recent_videos %}</h3>
       </div>
       <div class="row">
-        {% for data in site.videos limit: 2 %}
-          {% for video in data.list limit: 3 %}
-            {% include info/video-outline.html video=video category=data.category %}
+        {% if site.lang == "en" %}
+          {% for data in site.videos_en limit: 2 %}
+            {% for video in data.list limit: 3 %}
+              {% include info/video-outline.html video=video category=data.category %}
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
+        {% else %}
+          {% for data in site.videos limit: 2 %}
+            {% for video in data.list limit: 3 %}
+              {% include info/video-outline.html video=video category=data.category %}
+            {% endfor %}
+          {% endfor %}
+        {% endif %}
       </div>
     </div>
     <div class="text-center mt-3">
-      <a role="button" href="/videos" class="btn btn-dark px-4">
+      <a role="button" href="{{ site.baseurl }}/videos" class="btn btn-dark px-4">
         {% t index.view_all_videos_btn %}
       </a>
     </div>

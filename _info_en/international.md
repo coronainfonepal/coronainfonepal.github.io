@@ -2,9 +2,14 @@
 layout: info
 category: International
 list: # add news as per date
-  - title: Modi and trump to collaborate on fighting with COVID-19
-    source: ttp://annapurnapost.com
-    published_on: चैत्र २२, २०७६, शनिबार
-    news_url: http://annapurnapost.com/news/152296
-    news_thumbnail: http://bg.annapurnapost.com/uploads/media/trump-and-modi_20200224073112.jpg
+  - title: China reports no Covid-19 deaths for first time
+    source: https://www.bbc.com
+    published_on: 7 Apr, 2020, Tue
+    news_url: https://www.bbc.com/news/world-asia-china-52195034
+    news_thumbnail: https://ichef.bbci.co.uk/news/660/cpsprodpb/122E0/production/_111646447_hi060959423.jpg
+  - title: A visual guide to the world in lockdown
+    source: https://www.bbc.com
+    published_on: 7 Apr, 2020, Tue
+    news_url: https://www.bbc.com/news/world-52103747
+    news_thumbnail: https://ichef.bbci.co.uk/news/660/cpsprodpb/0ED1/production/_111639730_index_world_lockdownj_976.jpg
 ---

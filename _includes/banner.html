@@ -5,8 +5,9 @@
         {% include corona-stats.html %}
       </div>
       <div class="col-lg-6 col-md-5">
-        <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/{{ site.data.siteinfo.video_about_corona }}?rel=0&amp;autoplay=1" data-toggle="modal" class="youtube-video-btn">
-          <div class="video-play">
+        {% capture video_id %}{% if site.lang == 'en' %}{{ site.data.siteinfo.video_about_corona_en }}{% else %}{{ site.data.siteinfo.video_about_corona }}{% endif %}{% endcapture %}
+        <a href="#youtubeVideoModal" data-src="https://www.youtube.com/embed/{{ video_id }}?rel=0&amp;autoplay=1" data-toggle="modal" class="youtube-video-btn">
+          <div class="video-play{% if site.lang == 'en' %}-en{% endif %}">
           </div>
         </a>
       </div>

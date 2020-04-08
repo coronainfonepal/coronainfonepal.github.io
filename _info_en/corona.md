@@ -2,9 +2,9 @@
 layout: info
 category: Corona
 list:
-  - title: Shikhar Biotech is making testing kit
-    source: https://ictsamachar.com
-    published_on: १६ चैत, २०७६, आइतबार
-    news_url: https://ictsamachar.com/news-details/2282/2020-03-29
-    news_thumbnail: https://ictsamachar.com/uploads/news/images/255314503shikhar4.jpeg
+  - title: 'Coronavirus testing methods: What you need to know'
+    source: https://www.aljazeera.com
+    published_on: 7 Apr, 2020, Tue
+    news_url: https://www.aljazeera.com/news/2020/03/coronavirus-testing-methods-200330142718434.html
+    news_thumbnail: https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2020/4/3/3228c7b39da5438cb14591e4d5a45957_18.jpg
 ---
