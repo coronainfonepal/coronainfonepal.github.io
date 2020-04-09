@@ -98,6 +98,31 @@ body {
   }
 }
 
+// Page Top
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10%;
+  right: 4%;
+  overflow: hidden;
+  z-index: 999;
+  width: 32px;
+  height: auto;
+  border: none;
+  text-indent: 100%;
+}
+#toTopHover {
+  width: 32px;
+  height: 32px;
+  display: block;
+  overflow: hidden;
+  float: right;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+}
+
 @import "animate.min";
 @import "home";
 @import "blogs";

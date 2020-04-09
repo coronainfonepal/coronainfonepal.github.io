@@ -53,6 +53,17 @@ document.addEventListener("DOMContentLoaded", function() {
 $(function(){
   // Activate wow.js
   new WOW().init();
+  // Smooth-scroll initialization
+  var scroll = new SmoothScroll('a[href*="#"]', { speed: 700, speedAsDuration: true });
+
+  $(document).scroll(function () {
+    var $nav = $(".navbar.fixed-top");
+    if ($(this).scrollTop() > $nav.height() + 300 ) {
+      $('#toTop').css('display', 'block');
+    } else {
+      $('#toTop').css('display', '');
+    }
+  });
 
   // Language switch
   $('.language-switch-section .btn').on("click", function(e){
