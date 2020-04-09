@@ -1,0 +1,27 @@
+.helpgroup-section {
+  .group-header {
+    .primary-text {
+      color: #333;
+      font-size: 16px;
+    }
+  }
+
+  .group-details {
+    .primary-text {
+      color: #444;
+      font-size: 15px;
+    }
+    ul {
+      li {
+        color: #444;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .card {
+    .card-title {
+      color: #555;
+    }
+  }
+}

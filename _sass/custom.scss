@@ -78,6 +78,14 @@ body {
   border-radius: 0 !important;
 }
 
+.section-padding {
+  padding: 70px 0;
+}
+
+.unstyle_list {
+  list-style: none;
+}
+
 #youtubeVideoModal, #facebookVideoModal {
   top: 5%;
 
@@ -126,7 +134,7 @@ body {
 @import "animate.min";
 @import "home";
 @import "blogs";
-@import "about";
+@import "helpgroup";
 @import "contact";
 @import "info";
 @import "responsive";
