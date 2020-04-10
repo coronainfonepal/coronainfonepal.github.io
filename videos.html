@@ -12,7 +12,7 @@ page_name: videos
 %}
 
 <section class="info-section pb-5">
-  <div class="info-header-section pt-5 pb-2">
+  <div class="info-header-section wow fadeInUp pt-5 pb-2">
     <div class="container">
       {% if site.lang == "en" %}
         {% include info/video-header.html videos=site.videos_en %}
@@ -21,8 +21,10 @@ page_name: videos
       {% endif %}
     </div>
   </div>
-  <hr>
-  <div class="info-body-section pt-4">
+
+  <hr class="section-bar wow fadeInUp">
+
+  <div class="info-body-section wow fadeInUp pt-4">
     <div class="container">
       <div class="row">
         {% if site.lang == "en" %}

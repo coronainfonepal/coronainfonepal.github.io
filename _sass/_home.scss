@@ -93,6 +93,12 @@ pre {
   }
 }
 
+.section-bar {
+  background-color: #ccc;
+  width: 60%;
+  text-align: center;
+}
+
 .home-section {
   .message-of-day {
     padding: 2em;
@@ -100,11 +106,6 @@ pre {
     background: #323232;
     color: #ccc;
     font-weight: 600;
-  }
-  .section-bar {
-    background-color: #ccc;
-    width: 60%;
-    text-align: center;
   }
   .world-stats {
     background: #ccc;

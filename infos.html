@@ -11,8 +11,8 @@ page_name: infos
            primary_msg=primary_msg
 %}
 
-<section class="info-section pb-5">
-  <div class="info-header-section pt-5 pb-2">
+<section class="info-section pb-4">
+  <div class="info-header-section wow fadeInUp pt-5">
     <div class="container">
       {% if site.lang == "en" %}
         {% include info/info-header.html infos=site.infos_en %}
@@ -21,8 +21,10 @@ page_name: infos
       {% endif %}
     </div>
   </div>
-  <hr>
-  <div class="info-body-section">
+
+  <hr class="section-bar mb-5 mt-4 wow fadeInUp" />
+
+  <div class="info-body-section wow fadeInUp">
     <div class="container">
       <div class="row">
         {% if site.lang == "en" %}

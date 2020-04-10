@@ -29,10 +29,11 @@ index:
     total_infected: Total Infected
     total_death: Total Deaths
     total_recovered: Total Recovered
-  recent_info: Recent Information
+  recent_info: Information
   read_all_info_btn: Read All info
   category_info_label: Click to read for specific category
   info_categories: info Categories
-  recent_videos: Recent Videos
+  recent_videos: Videos
   view_all_videos_btn: View All Videos
+  helpgroup_caption: Help Groups
 

@@ -1,5 +1,5 @@
-<section class="info-section pb-5 wow fadeInUp">
-  <div class="info-body-section pt-2">
+<section class="info-section wow fadeInUp">
+  <div class="info-body-section">
     <div class="container">
       <div class="text-center mb-4">
         <h3>
@@ -8,13 +8,13 @@
       </div>
       <div class="row">
         {% if site.lang == "en" %}
-          {% for infos in site.infos_en %}
+          {% for infos in site.infos_en limit: 4 %}
             {% for info in infos.list limit: 1 %}
               {% include info/info-outline.html info=info category=infos.category %}
             {% endfor %}
           {% endfor %}
         {% else %}
-          {% for infos in site.infos %}
+          {% for infos in site.infos limit: 4 %}
             {% for info in infos.list limit: 1 %}
               {% include info/info-outline.html info=info category=infos.category %}
             {% endfor %}
@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <div class="info-header-section pt-3 pb-2">
+  <div class="info-header-section pt-3">
     <div class="container">
       <div class="text-center">
         <span class="info-categories">{% t index.category_info_label %}:</span>
