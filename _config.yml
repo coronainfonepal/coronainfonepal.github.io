@@ -18,15 +18,9 @@ exclude_from_localizations:
   - "feed.xml"
 
 collections:
-  info:
+  infos:
     output: true
-    order:
-      - government.md
-      - positivecases.md
-      - corona.md
-      - concerns.md
-      - international.md
-  info_en:
+  infos_en:
     output: true
   videos:
     output: true

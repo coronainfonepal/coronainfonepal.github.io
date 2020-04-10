@@ -8,15 +8,15 @@
       </div>
       <div class="row">
         {% if site.lang == "en" %}
-          {% for data in site.info_en %}
-            {% for info in data.list limit: 1 %}
-              {% include info/info-outline.html info=info category=data.category %}
+          {% for infos in site.infos_en %}
+            {% for info in infos.list limit: 1 %}
+              {% include info/info-outline.html info=info category=infos.category %}
             {% endfor %}
           {% endfor %}
         {% else %}
-          {% for data in site.info %}
-            {% for info in data.list limit: 1 %}
-              {% include info/info-outline.html info=info category=data.category %}
+          {% for infos in site.infos %}
+            {% for info in infos.list limit: 1 %}
+              {% include info/info-outline.html info=info category=infos.category %}
             {% endfor %}
           {% endfor %}
         {% endif %}
@@ -29,9 +29,9 @@
       <div class="text-center">
         <span class="info-categories">{% t index.category_info_label %}:</span>
         {% if site.lang == "en" %}
-          {% include info/info-header.html info=site.info_en %}
+          {% include info/info-header.html infos=site.infos_en %}
         {% else %}
-          {% include info/info-header.html info=site.info %}
+          {% include info/info-header.html infos=site.infos %}
         {% endif %}
       </div>
     </div>

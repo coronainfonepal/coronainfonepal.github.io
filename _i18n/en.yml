@@ -14,7 +14,7 @@ common:
 
 navbar:
   home: Home
-  info: Information
+  infos: Information
   videos: Videos
   contact: Contact Us
   contribute: Contribute

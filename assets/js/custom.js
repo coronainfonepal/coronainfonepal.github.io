@@ -70,7 +70,7 @@ $(function(){
     let new_path;
 
     if(location.pathname.indexOf("en") != -1) {
-      new_path = location.pathname.replace("en/", "");
+      new_path = "/";
     } else {
       new_path = "/en";
     }
