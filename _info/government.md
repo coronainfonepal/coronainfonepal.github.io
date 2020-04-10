@@ -2,6 +2,11 @@
 layout: info
 category: सरकार सम्बन्धित
 list: # add news as per date
+  - title: "भोलि र पर्सि उपत्यका बाहिर जान दिने सरकारको निर्णय"
+    source: https://www.onlinekhabar.com/
+    published_on: २७ चैत्र, २०७६, बिहिवार
+    news_url: https://www.onlinekhabar.com/2020/04/852956
+    news_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/04/KTM-to-Sunsari-4.jpg
   - title: "‘सुदूरपश्चिम उच्च जोखिममा छ, राष्ट्रिय संकट आउन सक्छ’"
     source: https://www.onlinekhabar.com/
     published_on: २३ चैत्र, २०७६, आइतवार
