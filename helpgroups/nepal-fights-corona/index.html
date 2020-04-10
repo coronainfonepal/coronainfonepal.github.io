@@ -7,10 +7,10 @@ permalink: /nepal-fights-corona
 <div class="container">
   <div class="row mb-3">
     <div class="col-md-12">
-      <h1>Help Group - Nepal Fights Corona</h1>
+      <h2>Help Group - Nepal Fights Corona</h2>
     </div>
   </div>
-  <div class="row">
+  <div class="row mb-5">
     <div class="col-lg-7 col-md-7 group-header">
       <p class="primary-text">
         Nepal Fights Corona - Help Group is an informal consortium of youths, activists,
@@ -28,7 +28,12 @@ permalink: /nepal-fights-corona
     </div>
   </div>
 
-  <div class="row group-details mt-5">
+  {% include message-of-the-page.html
+     msg="This group is a non-political and fully-volunteered driven group."
+     class="notice"
+  %}
+
+  <div class="row group-details mt-5 mb-4">
     <div class="col-md-6 pr-5">
       <h2 class="mb-3">Overview</h2>
       <p class="primary-text">
@@ -52,34 +57,108 @@ permalink: /nepal-fights-corona
     </div>
   </div>
 
-  <div class="row group-initiatives mt-5">
+  <div class="row group-initiatives mt-4">
     <div class="col-md-12">
       <h2>Group Initiatives</h2>
     </div>
   </div>
   <div class="row mt-3">
-    <div class="col-md-4 mb-3">
+    <div class="col-md-4 mb-4">
       <div class="card p-2">
         <div class="card-body">
           <h5 class="card-title">NEWS Mediator</h5>
           <p class="card-text">
-            Provide a platform on Facebook to present as much as reliable news to the group members.
+            Provide a platform on Facebook to present as much as reliable news or information to the group members.
             There have been few guidelines set for any of the posts to be approved.
+            <br>
+            The goal here is to make people aware with reliable information, become the mediator to specific queries
+            between people and concerned people.
           </p>
           <a href="/assets/pdfs/fb-post-guidelines.pdf" class="btn btn-sm btn-secondary">View Post Guidelines</a>
         </div>
       </div>
     </div>
-    <div class="col-md-4 mb-3">
+    <div class="col-md-4 mb-4">
       <div class="card p-2">
         <div class="card-body">
-          <h5 class="card-title">Project Ventilator</h5>
-          <p class="card-text">
-            A group of engineers are working on building in-house ventilator based on the MIT design released
-            in the internet.
+          <h5 class="card-title">Medical Equipment Distribution</h5>
+          <p class="card-text mb-0">
+            This group is also distributing medical equipments like PPE, Masks and others to the most needy one
+            whether hospitals or individual ones. These equipments are procured by the effort of individuals or
+            other helping groups.
+          </p>
+          <p class="initiative-lead mb-0">
+            <b>Initiative Leads:</b> Aanand Mishra
+            <a href="https://www.facebook.com/aanandm1" target="_blank">
+              <span class="badge badge-pill py-2">
+                 <i class="fab fa-facebook"></i>
+              </span>
+            </a>
           </p>
         </div>
       </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card p-2">
+        <div class="card-body">
+          <h5 class="card-title">Project Ventilator</h5>
+          <p class="card-text mb-0">
+            A group of engineers are working on building in-house ventilator which seems to be most required
+            equipment in the coming days as the pandemic progresses. Nepal has shortage of ventilators even in
+            good hospitals. With the intent that even if the working in-house ventilator is there,
+            it might help to a certain level.
+          </p>
+          <p class="initiative-lead mb-0">
+            <b>Initiative Leads:</b> Sushant Dahal
+            <a href="https://www.facebook.com/SushantDaha1" target="_blank">
+              <span class="badge badge-pill py-2">
+                 <i class="fab fa-facebook"></i>
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card p-2">
+        <div class="card-body">
+          <h5 class="card-title">Pregnancy Help</h5>
+          <p class="card-text mb-0">
+            Purpose of this initiative is to help the pregnant women to solve any problems they might
+            face during this pandemic. During the lockdown period, all the Outpatient Department (OPD)
+            services have been closed hence pregnant women can’t go for follow-up visits except
+            for emergencies. This group has been initiated to provide help to such women with
+            complicated pregnancy, labour or any other problems along with a dedicated telephone
+            counseling service from registered midwives.
+          </p>
+          <p class="initiative-lead mb-0">
+            <b>Initiative Lead:</b> Prasansha Budha Lama
+            <a href="https://www.facebook.com/prasansabuddha" target="_blank">
+              <span class="badge badge-pill py-2">
+                 <i class="fab fa-facebook"></i>
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row team mt-2">
+    <div class="col-md-12">
+      <h2>
+        Core Team
+      </h2>
+      <h6>(In alphabetical order)</h6>
+    </div>
+    <div class="col-md-12">
+      {% for member in site.data.nepal-fights-corona.core_members %}
+        <a href="{{ member.url }}" target="_blank">
+          <span class="badge badge-pill badge-secondary mb-2 px-3 py-2">
+            {{ member.name }}<i class="fab ml-2 fa-facebook"></i>
+          </span>
+        </a>
+      {% endfor %}
     </div>
   </div>
 </div>

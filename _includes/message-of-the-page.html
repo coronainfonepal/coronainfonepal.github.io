@@ -1,5 +1,9 @@
 <section class="message-of-the-page">
-  <h3 class="primary-msg mb-0 py-3 px-2">
-    {% t index.primary_msg %}
+  <h3 class="primary-msg mb-0 py-3 px-2{% if include.class %} {{ include.class }}{% endif %}">
+    {% if include.msg %}
+      {{ include.msg }}
+    {% else %}
+      {% t index.primary_msg %}
+    {% endif %}
   </h3>
 </section>
