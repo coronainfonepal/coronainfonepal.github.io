@@ -13,9 +13,9 @@ page_name: info
   <div class="info-header-section pt-5 pb-2">
     <div class="container">
       {% if site.lang == "en" %}
-        {% include info/info-header.html info=site.info_en %}
+        {% include info/info-header.html infos=site.infos_en %}
       {% else %}
-        {% include info/info-header.html info=site.info %}
+        {% include info/info-header.html infos=site.infos %}
       {% endif %}
     </div>
   </div>
