@@ -20,17 +20,18 @@
   <div class="collapse navbar-collapse" data-wow-delay=".5s" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item {% if page.page_name == 'home' %}active{% endif %}">
-        <a class="nav-link" href="{{ site.baseurl}}/">{% t navbar.home %}</a>
+        <a class="nav-link" href="{{ site.baseurl }}/">{% t navbar.home %}</a>
       </li>
       <li class="nav-item {% if page.page_name == 'infos' or page.layout == 'info' %}active{% endif %}">
-        <a class="nav-link" href="{{ site.baseurl}}/infos">{% t navbar.infos %}</a>
+        <a class="nav-link" href="{{ site.baseurl }}/infos">{% t navbar.infos %}</a>
       </li>
       <li class="nav-item {% if page.page_name == 'videos' or page.layout == 'video' %}active{% endif %}">
-        <a class="nav-link" href="{{ site.baseurl}}/videos">{% t navbar.videos %}</a>
+        <a class="nav-link" href="{{ site.baseurl }}/videos">{% t navbar.videos %}</a>
       </li>
-      <!-- <li class="nav-item {% if page.page_name == 'contact' %}active{% endif %}">
-        <a class="nav-link" href="{{ site.baseurl}}/contact">{% t navbar.contact %}</a>
+      <li class="nav-item {% if page.page_name == 'contact' %}active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/contact">{% t navbar.contact %}</a>
       </li>
+      <!--
       <li class="nav-item {% if page.page_name == 'contribute' %}active{% endif %}">
         <a class="nav-link" href="{{ site.baseurl}}/contribute">{% t navbar.contribute %}</a>
       </li> -->

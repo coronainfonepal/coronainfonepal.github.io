@@ -11,6 +11,7 @@ common:
     Any of the content do not necessarily reflect the opinions of this website
     or any of community member. We seek apology for any inconvenience caused
     by any of the content and obliged to remove such content immediately.
+  submit: Submit
 
 navbar:
   home: Home
@@ -37,3 +38,11 @@ index:
   view_all_videos_btn: View All Videos
   helpgroup_caption: Help Groups
 
+contact:
+  msg_caption: Do you have any message for us?<br>Send us a mail!
+  full_name: Enter Full Name
+  phone: Enter Phone No (10 Digits)
+  email: Enter Email
+  message: Type your message here ...
+  contribute_caption: Want to contribute to the development of this website?
+  repo_msg: Check website repository at GitHub
