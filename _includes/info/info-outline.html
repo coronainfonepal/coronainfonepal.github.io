@@ -1,0 +1,23 @@
+<div class="col-lg-3 col-md-4 col-6">
+  <div class="card info_card">
+    <a class="text-right" href="{{ include.info.info_url }}" target="_blank">
+      <!-- data-proofer-ignore: https://github.com/gjtorikian/html-proofer#ignoring-content -->
+      {% capture thumbnail %}{% if include.info.local_thumbnail %}/assets/{{ include.info.local_thumbnail }}{% else %}{{ include.info.info_thumbnail }}{% endif %}{% endcapture %}
+      <img class="card-img-top lazy" data-src="{{ thumbnail }}" alt="Loading ..." data-proofer-ignore>
+    </a>
+    <div class="card-body">
+      <div class="published_on mb-1">
+        <i class="fas fa-calendar-alt mr-1"></i> {{ include.info.published_on }}
+        <span class="badge badge-pill px-3 py-2">
+          {{ include.category }}
+        </span>
+      </div>
+      <a class="info_url mb-1" href="{{ include.info.info_url }}" target="_blank">
+        <h5 class="card-title mb-0">{{ include.info.title }}</h5>
+      </a>
+      <div class="source">
+        <b>{% t common.source %}:</b> {{ include.info.source }}
+      </div>
+    </div>
+  </div>
+</div>

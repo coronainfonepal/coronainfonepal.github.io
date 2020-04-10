@@ -26,15 +26,15 @@ page_name: info
     <div class="container">
       <div class="row">
         {% if site.lang == "en" %}
-          {% for info in site.info_en %}
-            {% for news in info.list %}
-              {% include info/news-outline.html news=news category=info.category %}
+          {% for data in site.info_en %}
+            {% for info in data.list %}
+              {% include info/info-outline.html info=info category=data.category %}
             {% endfor %}
           {% endfor %}
         {% else %}
-          {% for info in site.info %}
-            {% for news in info.list %}
-              {% include info/news-outline.html news=news category=info.category %}
+          {% for data in site.info %}
+            {% for info in data.list %}
+              {% include info/info-outline.html info=info category=data.category %}
             {% endfor %}
           {% endfor %}
         {% endif %}

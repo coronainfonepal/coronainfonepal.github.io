@@ -143,8 +143,8 @@ pre {
   }
 }
 
-// News Card
-.news_card {
+// Info Card
+.info_card {
   border: none;
   margin-bottom: 2em;
 
@@ -154,7 +154,7 @@ pre {
   .card-title {
     font-size: 13px;
   }
-  .news_url {
+  .info_url {
     color: #333;
     &:hover {
       text-decoration: none !important;
@@ -179,7 +179,7 @@ pre {
   }
 }
 
-.news-categories {
+.info-categories {
   font-size: 14px;
   font-weight: bold;
 }

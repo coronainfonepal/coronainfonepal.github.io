@@ -3,20 +3,20 @@
     <div class="container">
       <div class="text-center mb-4">
         <h3>
-          {% t index.recent_news %}
+          {% t index.recent_info %}
         </h3>
       </div>
       <div class="row">
         {% if site.lang == "en" %}
-          {% for info in site.info_en %}
-            {% for news in info.list limit: 1 %}
-              {% include info/news-outline.html news=news category=info.category %}
+          {% for data in site.info_en %}
+            {% for info in data.list limit: 1 %}
+              {% include info/info-outline.html info=info category=data.category %}
             {% endfor %}
           {% endfor %}
         {% else %}
-          {% for info in site.info %}
-            {% for news in info.list limit: 1 %}
-              {% include info/news-outline.html news=news category=info.category %}
+          {% for data in site.info %}
+            {% for info in data.list limit: 1 %}
+              {% include info/info-outline.html info=info category=data.category %}
             {% endfor %}
           {% endfor %}
         {% endif %}
@@ -27,7 +27,7 @@
   <div class="info-header-section pt-3 pb-2">
     <div class="container">
       <div class="text-center">
-        <span class="news-categories">{% t index.category_news_label %}:</span>
+        <span class="info-categories">{% t index.category_info_label %}:</span>
         {% if site.lang == "en" %}
           {% include info/info-header.html info=site.info_en %}
         {% else %}

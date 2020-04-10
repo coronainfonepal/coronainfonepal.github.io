@@ -4,7 +4,7 @@ common:
   contribute_pitch: Do you want to contribute fighting against COVID-19?
   disclaimer_label: Disclaimer
   disclaimer_msg: |
-    All news, videos, and links listed on the website are taken from
+    All info, videos, and links listed on the website are taken from
     several online sources and curated or filtered by the community.
     The intention of this website to present the information as reliable
     as possible through the curation process by the community members.
@@ -14,7 +14,7 @@ common:
 
 navbar:
   home: Home
-  news: News
+  info: Information
   videos: Videos
   contact: Contact Us
   contribute: Contribute
@@ -29,10 +29,10 @@ index:
     total_infected: Total Infected
     total_death: Total Deaths
     total_recovered: Total Recovered
-  recent_news: Recent News
-  read_all_news_btn: Read All News
-  category_news_label: Click to read for specific category
-  news_categories: News Categories
+  recent_info: Recent Information
+  read_all_info_btn: Read All info
+  category_info_label: Click to read for specific category
+  info_categories: info Categories
   recent_videos: Recent Videos
   view_all_videos_btn: View All Videos
 
