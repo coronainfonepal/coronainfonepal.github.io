@@ -1,5 +1,6 @@
 require 'html-proofer'
 require 'jekyll'
+require_relative 'lib/corona_stats.rb'
 
 multitask default: %i[link_check clean]
 
@@ -29,4 +30,11 @@ task :link_check => [:build] do
   rescue => msg
     puts "#{msg}"
   end
+end
+
+desc 'Update Corona Stats'
+task :update_corona_stats do
+  include CoronaStats
+
+  CoronaStats.update(ENV['world'], ENV['nepal'])
 end
