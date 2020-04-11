@@ -1,6 +1,7 @@
 ---
 layout: video
 category: मिडिया ब्रीफिंग
+title: स्वास्थ्य तथा जनसंख्या मन्त्रालयबाट मिडिया ब्रीफिंग
 thumbnail_path: media-briefing.jpg
 excerpt: स्वास्थ्य र जनसंख्या मन्त्रालय द्वारा COVID-१९ मा मिडिया ब्रीफिंग
 list:

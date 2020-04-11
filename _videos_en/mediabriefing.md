@@ -1,6 +1,7 @@
 ---
 layout: video
 category: Media Briefing
+title: Media Briefing from Ministry of Health and Population Nepal
 thumbnail_path: media-briefing.jpg
 excerpt: Media briefing on COVID-19 by Ministry of Health and Population Nepal
 list:
