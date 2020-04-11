@@ -55,6 +55,7 @@ If you have comments or questions, you can reach by following ways:
 
 # Roadmap
 
+* [ ] Include success stories of donation effort like relief work etc
 * [ ] Add other government related useful resources
 * [ ] Write step by step tutorial for easy onboarding to project
 * [ ] Add other categories of information and videos
