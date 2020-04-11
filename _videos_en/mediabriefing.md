@@ -1,6 +1,8 @@
 ---
 layout: video
 category: Media Briefing
+thumbnail_path: media-briefing.jpg
+excerpt: Media briefing on COVID-19 by Ministry of Health and Population Nepal
 list:
   - title: "Media Briefing 10 Apr, 2020"
     src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmohpnep%2Fvideos%2F227717545099731%2F&show_text=0"

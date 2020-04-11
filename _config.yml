@@ -6,7 +6,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coronainfonepal.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 google_analytics: UA-162159392-1
-
 permalink: /blogs/:year/:month/:day/:title/
 
 languages: ["np", "en"]

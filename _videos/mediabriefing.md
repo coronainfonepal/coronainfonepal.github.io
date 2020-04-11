@@ -1,6 +1,8 @@
 ---
 layout: video
 category: मिडिया ब्रीफिंग
+thumbnail_path: media-briefing.jpg
+excerpt: स्वास्थ्य र जनसंख्या मन्त्रालय द्वारा COVID-१९ मा मिडिया ब्रीफिंग
 list:
   - title: "मिडिया ब्रीफिंग चैत्र २८, २०७६"
     src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmohpnep%2Fvideos%2F227717545099731%2F&show_text=0"
