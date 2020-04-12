@@ -1,0 +1,2 @@
+{% assign link = site.posts | where:'title', include.title %}
+<a href="{{ site.baseurl }}{{ link[0].url }}">{{ include.title }}</a>

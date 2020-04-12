@@ -1,23 +1,63 @@
 ---
 layout: default
+title: Blogs
 ---
 
-<div class="post-section mt-5">
-  <!-- Wrapper Start -->
-  <section id="intro">
-    <div class="container">
-      <div class="row">
-        <p class="center-text pt-3">
-          <a href="{{ site.baseurl }}/" role="button" class="btn btn-sm btn-danger px-3">
-            गृह
-          </a>
-          <a href="{{ site.baseurl }}/news" role="button" class="btn btn-sm btn-success px-3">
-            समाचार सूची
-          </a>
-        </p>
-      </div>
-      <div class="row">
+<div id="blog-post-page" class="blog-post-page">
+  <div class="container my-4">
+    <!-- Wrapper Start -->
+    <div class="row">
+      {% if page.cover_img %}
+        <div class="col-md-12 cover-image">
+          {% assign cover-img=page.cover_img %}
+          {% assign img-title=page.title %}
+          {% include image.html
+                        img=cover-img
+                        title=img-title
+                        class="full-width"
+          %}
+        </div>
+      {% endif %}
+
+      <div class="col-md-12 post-container">
+        <h3 class="post-title">{{ page.title }}</h3>
+        <div class="row post-info">
+          <div class="col-md-6 col-sm-12 blog-card-heading">
+            <!-- <span><i class="fas fa-user mr-2"></i>{{ page.author }}</span> -->
+            <span><i class="fas fa-calendar-alt"></i>
+              {{ page.date | date_to_long_string }}
+            </span>
+            <small class="text-muted">
+              {% include blog/read-time.html
+                         content=content
+                         bracket_start='('
+                         bracket_end=')'
+                         unit='min'
+                         approx='true'
+                         caption='read'
+              %}
+            </small>
+          </div>
+          <div class="col-md-6 col-sm-12 post-tags">
+            <i class="fa fa-tags"></i>
+            {% for tag in page.tags %}
+              {% if page.is_tags_page %}
+                {% assign tag_url_base = "" %}
+              {% else %}
+                {% assign tag_url_base = "/blogs/tags/" %}
+              {% endif %}
+              <a href="{{ tag_url_base }}#{{ tag | uri_escape }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          </div>
+        </div>
+        <hr />
+        <div class="post-body">
+          {{ content }}
+        </div>
       </div>
     </div>
-  </section>
+
+    <div class="mt4 mb4">{% include blog/post-navigation.html %}</div>
+    <div class="mt4">{% include blog/post-share.html %}</div>
+  </div>
 </div>

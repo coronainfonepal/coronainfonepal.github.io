@@ -1,0 +1,16 @@
+{% if paginator.total_pages > 1 %}
+  <div class="text-center p-3">
+    {% if paginator.previous_page %}
+      {% assign prev_class="left button button-outline regular" %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" title="Previous Page" class="page-link float-left btn btn-sm btn-light {{ prev_class }}">&laquo; Newer Posts</a>
+    {% else %}
+      <div class="float-left px4">&nbsp;</div>
+    {% endif %}
+
+    <span class="btn btn-sm"> Page {{paginator.page}} of {{paginator.total_pages}}</span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" title="Next Page" class="page-link float-right btn btn-sm btn-light">Older Posts &raquo;</a>
+    {% endif %}
+  </div>
+{% endif %}

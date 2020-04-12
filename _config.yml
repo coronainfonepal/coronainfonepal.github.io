@@ -4,6 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Get the reliable and authentic information regarding COVID-19 disease
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coronainfonepal.org" # the base hostname & protocol for your site, e.g. http://example.com
+images_base_url: /assets
 
 google_analytics: UA-162159392-1
 permalink: /blogs/:year/:month/:day/:title/
@@ -15,6 +16,12 @@ exclude_from_localizations:
   - "README.md"
   - "Rakefile"
   - "feed.xml"
+
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  sort_reverse: true
 
 collections:
   infos:
@@ -33,5 +40,5 @@ sass:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-multiple-languages-plugin

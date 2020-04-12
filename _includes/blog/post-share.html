@@ -1,0 +1,32 @@
+<section class="post-share">
+  <div class="profile-footer-pic">
+    <div class="profile-thumbnail-pic">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-7">
+      <a class="navbar-brand" href="{{ site.baseurl }}/">
+        {{ site.title }}
+      </a>
+      <p class="h5">
+        {% if include.text %}
+          {{ include.text }}
+        {% else %}
+          Thank you for reading the post. <a onclick="window.history.back()">Click <b>here</b> to <span class="goback-link">Go Back.</span></a>
+        {% endif %}
+      </p>
+    </div>
+    <div class="col-sm-5">
+      <h3>Share &nbsp;
+        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}" target="_blank" title="Share on Twitter" class="fab fa-twitter"></a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}&title={{ page.title }}" target="_blank"
+          title="Share on LinkedIn" class="fab fa-linkedin-in"></a>
+        <a href="https://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}&title={{ page.title }}" target="_blank" title="Share on Facebook" class="fab fa-facebook"></a>
+        <a href="mailto:?subject={{ page.title }}&amp;body=Check out this nice blog {{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}"
+          title="Share via Email">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </h3>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="image-wrapper">
+      {% if include.url1 %}
+      <a href="{{ include.url1 }}" title="{{ include.title1 }}" target="_blank">
+        {% endif %}
+
+        <img src="{{ site.images_base_url }}/img/{{ include.img1 }}" alt="{{ include.title1 }}" class="{{ include.class1 }} img-fluid" />
+
+        {% if include.url1 %}
+      </a>
+      {% endif %}
+
+      {% if include.caption1 %}
+        <p class="image-caption">Image: {{ include.caption1 }}</p>
+      {% endif %}
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="image-wrapper">
+      {% if include.url2 %}
+      <a href="{{ include.url2 }}" title="{{ include.title2 }}" target="_blank">
+        {% endif %}
+
+        <img src="{{ site.images_base_url }}/img/{{ include.img2 }}" alt="{{ include.title2 }}" class="{{ include.class2 }} img-fluid" />
+
+        {% if include.url2 %}
+      </a>
+      {% endif %}
+
+      {% if include.caption2 %}
+        <p class="image-caption">Image: {{ include.caption2 }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>

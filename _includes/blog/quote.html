@@ -1,0 +1,8 @@
+<blockquote class="blockquote my-4">
+  <p class="mb-0 {% if include.quote_with_bar != null %}quote-bar{% endif %}">{{ include.quote }}</p>
+  {% if include.quote_by != null %}
+    <footer class="blockquote-footer text-center">{{ include.quote_by }} 
+      <cite title="Source Title">{{ include.quote_source}}</cite>
+    </footer>
+  {% endif %}  
+</blockquote>
