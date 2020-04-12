@@ -1,19 +1,19 @@
 ---
 np:
   world:
-    confirmed: १७,२२,५१४
-    deaths: १,०४,७७५
-    recovered: ३,८९,२९२
+    confirmed: १७,८७,०८०
+    deaths: १,०९,२८८
+    recovered: ४०६,१०९
   nepal:
-    confirmed: ९
+    confirmed: १२
     deaths: ०
     recovered: १
 en:
   world:
-    confirmed: '17,22,514'
-    deaths: '1,04,775'
-    recovered: '3,89,292'
+    confirmed: '17,87,080'
+    deaths: '1,09,288'
+    recovered: '406,109'
   nepal:
-    confirmed: '9'
+    confirmed: '12'
     deaths: '0'
     recovered: '1'
