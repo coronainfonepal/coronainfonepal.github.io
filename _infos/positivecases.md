@@ -2,6 +2,31 @@
 layout: info
 category: कोरोना पुष्टि
 list:
+  - title: "१३औं संक्रमितको रिपोर्ट : र्‍यापिड टेष्टमा नेगेटिभ, पीसीआर टेष्टमा पोजेटिभ"
+    source: https://www.onlinekhabar.com
+    published_on: १ वैशाख, २०७७, सोमवार
+    info_url: https://www.onlinekhabar.com/2020/04/854101
+    info_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/04/Old-Woman-Kovid-19-Positive-New.jpg
+  - title: "कैलालीमा ६५ वर्षीया बृद्धामा कोरोना संक्रमणको पुष्टि"
+    source: https://www.onlinekhabar.com
+    published_on: १ वैशाख, २०७७, सोमवार
+    info_url: https://www.onlinekhabar.com/2020/04/854099
+    info_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/03/Corona-test-5.jpg
+  - title: "रौतहटका एक युवकमा देखियो कोरोना संक्रमण"
+    source: https://www.onlinekhabar.com
+    published_on: १ वैशाख, २०७७, सोमवार
+    info_url: https://www.onlinekhabar.com/2020/04/854248
+    info_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/04/Rautahat-corona.jpg
+  - title: "११ हजार नमूना परीक्षण गर्दा १४ जनामा भेटियो कोरोना"
+    source: https://www.onlinekhabar.com
+    published_on: १ वैशाख, २०७७, सोमवार
+    info_url: https://www.onlinekhabar.com/2020/04/854256
+    info_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/04/Rapid-Corona-Test.jpg
+  - title: "वीरगञ्ज बसेका ३ जना भारतीय नागरिकमा कोरोना संक्रमण पुष्टि"
+    source: https://www.onlinekhabar.com/
+    published_on: ३० चैत, २०७६, आइतवार
+    info_url: https://www.onlinekhabar.com/2020/04/853713
+    info_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/03/Corona-test-5.jpg
   - title: "[छैटौं केस] नेपालमा अर्का एक कोरोना संक्रमित थपिए : ६ जनामा पुष्टि"
     source: http://annapurnapost.com
     published_on: २० चैत, २०७६, मंगलवार

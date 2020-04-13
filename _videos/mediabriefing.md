@@ -5,6 +5,20 @@ title: स्वास्थ्य तथा जनसंख्या मन्�
 thumbnail_path: media-briefing.jpg
 excerpt: स्वास्थ्य र जनसंख्या मन्त्रालय द्वारा COVID-१९ मा मिडिया ब्रीफिंग
 list:
+  - title: "मिडिया ब्रीफिंग १ वैशाख, २०७७"
+    src: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmohpnep%2Fvideos%2F593279734608192%2F&show_text=0
+    thumbnail: https://scontent.fnag4-1.fna.fbcdn.net/v/t15.5256-10/92967161_593292157940283_8187201878090579968_n.jpg?_nc_cat=1&_nc_sid=f2c4d5&_nc_ohc=9wwhak_MYkMAX-49M0y&_nc_ht=scontent.fnag4-1.fna&oh=5cc43bc5511c1389042d876d3de8356e&oe=5EBA6A07
+    published_on: १ वैशाख, २०७७, सोमवार
+    source_platform: facebook
+    source: MoHP- Nepal
+    source_url: https://www.facebook.com/mohpnep
+  - title: "मिडिया ब्रीफिंग चैत्र ३०, २०७६"
+    src: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmohpnep%2Fvideos%2F544186912768193%2F&show_text=0
+    thumbnail: https://scontent.fnag4-1.fna.fbcdn.net/v/t15.5256-10/93480118_544207646099453_8208010818546040832_n.jpg?_nc_cat=100&_nc_sid=f2c4d5&_nc_ohc=oDYka1yAk6AAX_Q10xw&_nc_ht=scontent.fnag4-1.fna&oh=28b160576b934a2ec120920fc76259e6&oe=5EB893D8
+    published_on: चैत्र ३०, २०७६, आइतवार
+    source_platform: facebook
+    source: MoHP- Nepal
+    source_url: https://www.facebook.com/mohpnep
   - title: "मिडिया ब्रीफिंग चैत्र २९, २०७६"
     src: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmohpnep%2Fvideos%2F598615817673026%2F&show_text=0
     thumbnail: https://scontent.fpnq1-1.fna.fbcdn.net/v/t15.5256-10/93254513_598649041003037_5359829163446370304_n.jpg?_nc_cat=101&_nc_sid=f2c4d5&_nc_ohc=0vGxWqdUFvkAX8p_pIO&_nc_ht=scontent.fpnq1-1.fna&oh=9069ebd459a5b32ef94be188ab2077c1&oe=5EB97400

@@ -3,10 +3,10 @@ layout: info
 category: Business
 list:
   - title: Latest relief for businesses in Nepal to combat COVID-19
-    source: https://onlinekhabar.com/
+    source: https://lexadvise.com
     published_on: 3 Apr, 2020, Fri
     info_url: https://lexadvise.com/latest-relief-for-businesses-in-nepal-to-combat-covid-19/
-    info_thumbnail: https://english.onlinekhabar.com/wp-content/uploads/2017/05/National-Examinations-Board-NEB-Nepal.jpg
+    info_thumbnail: https://lexadvise.com/wp-content/uploads/2020/04/sergey-pesterev-dstd4DoLQ90-unsplash-1.jpg
   - title: Oli warns next two weeks can be more challenging
     source: https://onlinekhabar.com/
     published_on: 7 Apr, 2020, Tue
