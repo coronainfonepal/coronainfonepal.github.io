@@ -1,6 +1,7 @@
 ---
 layout: video
 category: कोरोना
+thumbnail_path: coronavirus.jpg
 list:
   - title: "कोरोनाको बारेमा बुझौं - कोरोना के हो र कसरी बच्ने?"
     id: owSNrBPCbo0

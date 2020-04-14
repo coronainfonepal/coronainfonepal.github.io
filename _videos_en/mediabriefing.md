@@ -5,10 +5,17 @@ title: Media Briefing from Ministry of Health and Population Nepal
 thumbnail_path: media-briefing.jpg
 excerpt: Media briefing on COVID-19 by Ministry of Health and Population Nepal
 list:
+  - title: "Media Briefing 14 Apr, 2020"
+    src: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmohpnep%2Fvideos%2F1014096265651843%2F&show_text=0
+    thumbnail: https://scontent.fnag4-1.fna.fbcdn.net/v/t15.5256-10/93182071_1014115035649966_4415271988545716224_n.jpg?_nc_cat=1&_nc_sid=f2c4d5&_nc_ohc=jiEbPNAfSngAX_sPIoD&_nc_ht=scontent.fnag4-1.fna&oh=a1ae0c9c2f5b16b056827c2bc092d867&oe=5EBC8652
+    published_on: 14 Apr, 2020, Tue
+    source_platform: facebook
+    source: MoHP- Nepal
+    source_url: https://www.facebook.com/mohpnep
   - title: "Media Briefing 13 Apr, 2020"
     src: https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmohpnep%2Fvideos%2F593279734608192%2F&show_text=0
     thumbnail: https://scontent.fnag4-1.fna.fbcdn.net/v/t15.5256-10/92967161_593292157940283_8187201878090579968_n.jpg?_nc_cat=1&_nc_sid=f2c4d5&_nc_ohc=9wwhak_MYkMAX-49M0y&_nc_ht=scontent.fnag4-1.fna&oh=5cc43bc5511c1389042d876d3de8356e&oe=5EBA6A07
-    published_on: 13 Apr, 2020, Sun
+    published_on: 13 Apr, 2020, Mon
     source_platform: facebook
     source: MoHP- Nepal
     source_url: https://www.facebook.com/mohpnep

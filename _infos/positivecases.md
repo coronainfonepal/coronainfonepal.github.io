@@ -1,6 +1,7 @@
 ---
 layout: info
 category: कोरोना पुष्टि
+thumbnail_url: corona-positives.jpg
 list:
   - title: "१३औं संक्रमितको रिपोर्ट : र्‍यापिड टेष्टमा नेगेटिभ, पीसीआर टेष्टमा पोजेटिभ"
     source: https://www.onlinekhabar.com
