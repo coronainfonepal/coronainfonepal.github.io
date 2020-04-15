@@ -65,4 +65,8 @@ module CoronaStats
       update_nepali_stats
       update_corona_stats_file
    end
+
+   def convert(num)
+      nepali_format(num)
+   end
 end

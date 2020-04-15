@@ -38,3 +38,10 @@ task :update_corona_stats do
 
   CoronaStats.update(ENV['world'], ENV['nepal'])
 end
+
+desc 'Convert to Nepali Numbers'
+task :to_np do
+  include CoronaStats
+
+  puts CoronaStats.convert(ENV['num'])
+end
