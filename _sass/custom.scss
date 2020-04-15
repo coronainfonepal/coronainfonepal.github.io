@@ -76,6 +76,19 @@ body {
   margin: 5em 0;
 }
 
+.btn-gray {
+  background-color: #efefef;
+  color: #333;
+
+  &:hover {
+    background-color:#ddd;
+  }
+}
+
+.h-120 {
+  height: 120px;
+}
+
 // remove all buttons border radius
 .btn {
   border-radius: 0 !important;

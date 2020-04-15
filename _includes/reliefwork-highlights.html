@@ -1,0 +1,56 @@
+<section class="reliefwork-section wow fadeInUp">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h3>{% t index.relief_work %}</h3>
+    </div>
+
+    <div class="row remove-site-content-margin">
+      {% assign total_posts =  site.posts | where:"type","reliefwork" %}
+      {% assign total_posts =  site.posts | where:"type","reliefwork" %}
+      {% assign latest_post = total_posts | first %}
+      <div class="col-md-6">
+        <div class="card border-0 mb-4 box-shadow">
+          <a href="{{ site.baseurl }}{{ latest_post.url }}">
+            <div class="topfirstimage" style="background-image: url({{ site.images_base_url }}/img/{{ latest_post.images[0] }}); height: 300px;    background-size: cover;    background-repeat: no-repeat;"></div>
+          </a>
+          <div class="card-body px-0 pt-3 pb-0 d-flex flex-column align-items-start">
+            <h2 class="h4 font-weight-bold mb-0">
+              <a class="text-dark" href="{{ site.baseurl }}{{ latest_post.url }}">
+                {{ latest_post.title }}
+              </a>
+            </h2>
+            <p class="excerpt">
+              {{ latest_post.content | truncate: 100 }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        {% for post in total_posts offset: 1 limit: 3 %}
+          <div class="mb-3 d-flex align-items-center">
+            <div class="col-md-4">
+              <a href="{{ site.baseurl }}{{ post.url }}">
+                <img class="w-100 h-120" src="{{ site.images_base_url }}/img/{{ post.images[0] }}" alt="{{ post.title }}">
+              </a>
+            </div>
+
+            <div>
+              <h2 class="mb-2 h6 font-weight-bold">
+                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              </h2>
+              <p class="excerpt">
+                {{ post.content | truncate: 100 }}
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <a role="button" href="{{ site.baseurl }}/reliefwork" class="btn btn-dark px-4">
+        {% t index.view_all_reliefwork_btn %}
+      </a>
+    </div>
+  </div>
+</section>

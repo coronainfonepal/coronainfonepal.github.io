@@ -1,3 +1,6 @@
+.bg-gray {
+  background-color: #eee;
+}
 .img-full-width {
   width: 100%;
 }
@@ -256,5 +259,183 @@ img.centered {
   }
   h3 {
     font-size: 20px;
+  }
+}
+
+.pinterest-style {
+  .PageNavigation a {
+    position: fixed;
+    top: 47%;
+    font-weight: 700;
+    color: #989696;
+    text-align: center;
+    background: #ddd;
+    border-radius: 40px;
+    font-size:12px;
+    line-height: 1.3;
+  }
+  .PageNavigation a i {
+    font-size:40px;
+    width:60px;
+    height:60px;
+    line-height:60px;
+    border-radius:50%;
+  }
+  .PageNavigation a:hover {
+    color:#333;
+  }
+  a.prev {
+    left: 100px;
+  }
+  a.next {
+    right: 100px;
+  }
+  .card-body {
+    padding: 1.25rem 2rem;
+  }
+  .display-4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
+.reliefwork-section {
+  .card {
+    border: 0;
+    transition:ease .1s;
+  }
+  .card-pin:hover .overlay {
+    opacity:.5;
+    border:5px solid #f3f3f3;
+    -webkit-transition:ease .2s;
+    transition:ease .1s;
+    background-color:#000000;
+    cursor:-webkit-zoom-in;
+    cursor: zoom-in;
+  }
+  .more {
+    color:white;
+    font-size:14px;
+    position:absolute;
+    bottom: 9px;
+      right: 10px;
+    text-transform:uppercase;
+    -webkit-transform:translate(-20%,-20%);
+    transform:translate(-20%,-20%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  .card-pin .card-title {
+    color:#ffffff;
+    text-align:center;
+    font-size:1.2em;
+      margin-bottom:0;
+  }
+  .card-pin.raco .card-title {
+      text-align: left;
+  }
+  .notraco {
+      background: #ffffff;
+      color: #333;
+      border: 0;
+      border-top: 0;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      padding: 15px 18px;
+      position: relative;
+  }
+  .card-pin.raco .notraco .card-title {
+    color: #333;
+    font-size: 1em;
+    font-style:normal;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .card-pin .more a {
+    text-decoration:none;
+    color: #ffffff;
+  }
+  .card-pin .download a {
+    text-decoration:none;
+    color: #ffffff;
+  }
+  .card-pin.raco:hover .notraco {
+    background-color: #f0f0f0;
+    transition: all 0.2s;
+  }
+  .wrapcat {
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+    transition: all 0.2s;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .showcat {
+    margin: auto;
+    padding: 0 15px 40px 15px;
+  }
+  .wrapcat .btn {
+    border: 0;
+    padding: 0 6px 2px 6px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    font-size:13px;
+  }
+  .card-pin.raco:hover .wrapcat {
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: row;
+    border-radius:6px;
+    transition: all 0.2s;
+  }
+  .card-pin.raco:hover i.text-muted {
+    color:#bd081c !important;
+    transition: all 0.2s;
+    position: relative;
+  }
+  .car-pin.raco:hover .fa:before {
+    animation: pulse 2s ease-in;
+    animation-iteration-count: infinite;
+  }
+  .pinme {
+    position: absolute;
+    top: 6px;
+    left: 10px;
+  }
+  .gotopost {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 5px 1px 5px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  }
+  @keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      opacity: 0.0;
+    }
+    25% {
+      -webkit-transform: scale(1.35);
+      opacity: 0.1;
+    }
+    50% {
+      -webkit-transform: scale(1.7);
+      opacity: 0.3;
+    }
+    75% {
+      -webkit-transform: scale(2.05);
+      opacity: 0.5;
+    }
+    100% {
+      -webkit-transform: scale(2.4);
+      opacity: 0.0;
+    }
   }
 }

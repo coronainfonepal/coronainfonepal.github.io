@@ -1,0 +1,18 @@
+<div class="card card-pin  raco">
+  <div class="wrapcat">
+    <span class="gotopost">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="text-dark"><i class="fa fa-arrow-circle-right"></i> More
+      </a>
+    </span>
+  </div>
+  <a href="{{ site.baseurl }}{{ include.reliefwork.url }}">
+    <img class="card-img" src="{{ site.images_base_url }}/img/{{ include.reliefwork.images[0] }}"
+      alt="{{ include.reliefwork.title }}">
+    <div class="notraco">
+      <h2 class="card-title title">{{ include.reliefwork.title }}</h2>
+      <p class="excerpt">
+        {{ include.reliefwork.content | truncate: 70 }}
+      </p>
+    </div>
+    </a>
+</div>

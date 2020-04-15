@@ -81,6 +81,15 @@
       padding: 2em 1.5em;
     }
   }
+
+  .pinterest-style {
+    a.prev {
+      left: 0;
+    }
+    a.next {
+      right: 0;
+    }
+  }
 }
 
 @media(max-width: 360px) {

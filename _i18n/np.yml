@@ -11,6 +11,8 @@ common:
     पनि सदस्यको विचारहरू प्रतिबिम्बित गर्दैन । हामी कुनै सामग्रीको कारण भएको कुनै पनि असुविधाको
     लागि क्षमा माग्छौं र त्यस्ता सामग्री तुरून्त हटाउन बाध्य हुने छौँ ।
   submit: बुझाउनुहोस्
+  visit_source: स्रोत हेर्नुहोस
+  contact_to_support: समर्थन गर्न सम्पर्क गर्नुहोस्
 
 navbar:
   home: होमपेज
@@ -19,7 +21,7 @@ navbar:
   contact: सम्पर्क-गर्नु
   contribute: योगदान-दिनुहोस्
   logotag_line: समुदायको लागि समुदाय द्वारा।
-
+  relief_work: राहत-कार्य
 
 # Pages
 index:
@@ -30,6 +32,8 @@ index:
     total_infected: कुल संक्रमित
     total_death: कुल मृत्यु
     total_recovered: कुल स्वस्थलाभ
+  relief_work: राहत कार्य
+  view_all_reliefwork_btn: सबै राहत कार्यहरू हेर्नुहोस्
   recent_info: जानकारीहरू
   read_all_info_btn: सबै जानकारीका लागि यहाँ क्लिक गर्नुहोस्
   category_info_label: विशिष्ट श्रेणीको जानकारीहरू पढ्न क्लिक गर्नुहोस्

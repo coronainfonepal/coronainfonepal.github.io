@@ -1,0 +1,19 @@
+---
+layout: default
+title: Relief Work
+page_name: reliefwork
+permalink: /reliefwork/
+---
+
+<div class="reliefwork-section py-6">
+  <div class="container pt-4">
+    <div class="card-columns">
+      {% assign reliefworks =  site.posts | where:"type","reliefwork" %}
+      {% for post in reliefworks %}
+        {% include blog/reliefwork-outline.html reliefwork=post %}
+      {% endfor %}
+
+    </div>
+    {% include blog/pagination.html %}
+  </div>
+</div>
