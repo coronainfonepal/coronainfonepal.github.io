@@ -14,6 +14,7 @@ common:
   submit: Submit
   visit_source: Visit Source
   contact_to_support: Contact To Support
+  read_more: Read More
 
 navbar:
   home: Home

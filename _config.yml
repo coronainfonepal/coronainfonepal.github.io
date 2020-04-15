@@ -20,11 +20,11 @@ exclude_from_localizations:
   - "Rakefile"
   - "feed.xml"
 
-pagination:
-  enabled: true
-  per_page: 10
-  permalink: '/page/:num/'
-  sort_reverse: true
+# pagination:
+#   enabled: true
+#   per_page: 10
+#   permalink: '/page/:num/'
+#   sort_reverse: true
 
 collections:
   infos:

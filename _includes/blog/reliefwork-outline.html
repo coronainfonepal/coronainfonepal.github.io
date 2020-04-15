@@ -1,7 +1,8 @@
 <div class="card card-pin  raco">
   <div class="wrapcat">
     <span class="gotopost">
-      <a href="{{ site.baseurl }}{{ post.url }}" class="text-dark"><i class="fa fa-arrow-circle-right"></i> More
+      <a href="{{ site.baseurl }}{{ post.url }}" class="text-dark"><i class="fa fa-arrow-circle-right"></i>
+        {% t common.read_more %}
       </a>
     </span>
   </div>
@@ -9,9 +10,12 @@
     <img class="card-img" src="{{ site.images_base_url }}/img/{{ include.reliefwork.images[0] }}"
       alt="{{ include.reliefwork.title }}">
     <div class="notraco">
-      <h2 class="card-title title">{{ include.reliefwork.title }}</h2>
-      <p class="excerpt">
-        {{ include.reliefwork.content | truncate: 70 }}
+      <h2 class="card-title title font-weight-bold mb-2">{{ include.reliefwork.title }}</h2>
+      <p class="excerpt text-muted">
+        {{ include.reliefwork.content | strip_html | truncate: 150 }}
+        <br>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="text-red">
+          <i class="fa fa-arrow-circle-right"></i><span class="ml-1">{% t common.read_more %}</span></a>
       </p>
     </div>
     </a>

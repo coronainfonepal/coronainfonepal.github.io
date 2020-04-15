@@ -20,7 +20,10 @@
               </a>
             </h2>
             <p class="excerpt">
-              {{ latest_post.content | truncate: 100 }}
+              {{ latest_post.content | truncate: 150 }}
+              <a href="{{ site.baseurl }}{{ latest_post.url }}" class="text-red">
+                <i class="fa fa-arrow-circle-right"></i><span class="ml-1">{% t common.read_more %}</span>
+              </a>
             </p>
           </div>
         </div>
@@ -41,6 +44,9 @@
               </h2>
               <p class="excerpt">
                 {{ post.content | truncate: 100 }}
+                <a href="{{ site.baseurl }}{{ post.url }}" class="text-red">
+                  <i class="fa fa-arrow-circle-right"></i><span class="ml-1">{% t common.read_more %}</span>
+                </a>
               </p>
             </div>
           </div>

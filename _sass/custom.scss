@@ -84,9 +84,17 @@ body {
     background-color:#ddd;
   }
 }
-
+.text-red {
+  color: red !important;
+}
+.text-dark {
+  color: #111 !important;
+}
 .h-120 {
   height: 120px;
+}
+a {
+  text-decoration: none !important;
 }
 
 // remove all buttons border radius

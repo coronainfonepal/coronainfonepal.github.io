@@ -335,14 +335,18 @@ img.centered {
       text-align: left;
   }
   .notraco {
-      background: #ffffff;
-      color: #333;
-      border: 0;
-      border-top: 0;
-      border-bottom-left-radius: 3px;
-      border-bottom-right-radius: 3px;
-      padding: 15px 18px;
-      position: relative;
+    background: #ffffff;
+    color: #333;
+    border: 0;
+    border-top: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 15px 18px;
+    position: relative;
+
+    a {
+      text-decoration: none;
+    }
   }
   .card-pin.raco .notraco .card-title {
     color: #333;
@@ -415,6 +419,10 @@ img.centered {
     padding: 0px 5px 1px 5px;
     border-radius: 2px;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  }
+  .excerpt a {
+    color: #777;
+    text-decoration: none;
   }
   @keyframes pulse {
     0% {
