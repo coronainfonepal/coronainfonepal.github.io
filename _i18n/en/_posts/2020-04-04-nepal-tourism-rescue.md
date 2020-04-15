@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Food Donation campaign at Kirtipur and Chovar
+title: Nepal Tourism Board rescued 1721 tourists from all over Nepal
 date: 4th April, 2020
 categories: [ rescuework ]
 type: reliefwork
