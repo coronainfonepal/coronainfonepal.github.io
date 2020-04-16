@@ -67,6 +67,10 @@ If you have comments or questions, you can reach by following ways:
 * [x] Add basic layout to show useful information
 * [x] Display stats for corona in Nepal and World
 
+# Contributing
+
+Welcome for any contribution.
+
 # Author
 
 [Budh Ram Gurung](https://freelancerbrg.com) - [`@coolbrg`](https://github.com/coolbrg)
