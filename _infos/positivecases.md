@@ -3,6 +3,16 @@ layout: info
 category: कोरोना पुष्टि
 thumbnail_url: corona-positives.jpg
 list:
+  - title: उदयपुरमा १२ जनाको कोरोना परीक्षण रिपोर्ट पोजेटिभ
+    source: https://www.onlinekhabar.com
+    published_on: ५ वैशाख, २०७७, शुक्रवार
+    info_url: http://annapurnapost.com/news/153533
+    info_thumbnail: http://bg.annapurnapost.com/uploads/media/corona-test_20200416100955.jpg
+  - title: "चितवनका दुई संक्रमित : चैत ३ मा बेलायतबाट आएका थिए आमाछोरा"
+    source: https://www.onlinekhabar.com
+    published_on: ५ वैशाख, २०७७, शुक्रवार
+    info_url: https://www.onlinekhabar.com/2020/04/855566
+    info_thumbnail: https://www.onlinekhabar.com/wp-content/uploads/2020/04/Covid-19-Woman.jpg
   - title: "१३औं संक्रमितको रिपोर्ट : र्‍यापिड टेष्टमा नेगेटिभ, पीसीआर टेष्टमा पोजेटिभ"
     source: https://www.onlinekhabar.com
     published_on: १ वैशाख, २०७७, सोमवार
